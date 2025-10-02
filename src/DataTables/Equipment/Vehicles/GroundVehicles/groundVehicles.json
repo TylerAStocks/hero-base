@@ -1,0 +1,26 @@
+{
+    "main": "Ground Vehicles",
+    "records": [
+        {
+        "name": "Armored Car",
+        "body": "9d",
+        "speed": "6d",
+        "control": "0d",
+        "weapons": "-"
+    },
+    {
+        "name": "Bus",
+        "body": "9d",
+        "speed": "6d",
+        "control": "-1d",
+        "weapons": "-"
+    },
+    {
+        "name": "Car, Limousine, SUV",
+        "body": "8d",
+        "speed": "6d",
+        "control": "0d",
+        "weapons": "-"
+    }
+]
+}

@@ -1,0 +1,15 @@
+{
+    "main": "Headquarters are as varied as the Heroes and Villains that use them: arctic fortresses, cave complexes, innocuous brownstones, island compounds, orbiting satellites, sprawling mansions, undersea bases, and on and on. Although some groups prefer to leave the creation of a team headquarters to their GM, others like to have a more direct hand in the design of their home base. For those groups, these rules provide guidelines for creating your own unique base of operation. BASE FEATURES The Headquarters Perk grants you a basic headquarters, a space no larger than an average mansion or warehouse with whatever basic rooms, equipment, and facilities you would like. At this stage of the process, your headquarters is a relatively mundane affair. However, every Hero Point you put into the Headquarters Perk also grants you 3 Base Points you can spend to improve your headquarters by adding the unique features described below. As always, feel free to add any you think we missed. Multiple Heroes can pool their Base Points together to create an even better headquarters. For the most part, features are described in narrative rather than mechanical terms. However, GMs may grant Heroes a +1d bonus to challenge rolls whenever they can take advantage of an advanced feature in their headquarters. For example, if your base has the Advanced Science Labs feature, the GM may grant you a +1d bonus to Investigation rolls if you can bring any clues you find back to your headquarters for further analysis.",
+    "records": [
+        {
+            "name": "Alternate Headquarters",
+            "cost": 1,
+            "description": "Every Base Point you put into this feature grants you an extra headquarters, in case your primary base of operations gets compromised, destroyed, infested with termites, or otherwise becomes undesirable. Your alternate headquarters can be identical to the primary one, or completely different, but it can’t cost more Base Points than your primary headquarters."
+        },
+        {
+            "name": "Communications",
+            "cost": "1 to 2",
+            "description": "You presumably have one or more dedicated computers, phone lines, radios, and whatever other mundane telecommunications equipment you want in your headquarters. This feature, however, means you have something more. One Base Point provides you with standard communications roughly equivalent the best modern-day telecommunications systems and includes, at the very least, military grade encryption. Two Base Points provides you with a communications system that incorporates advanced technology or magic. This system is all-but impossible to hack into and allows you to interface with most global, interstellar, and possibly interdimensional communications systems."
+        }
+    ]
+}
