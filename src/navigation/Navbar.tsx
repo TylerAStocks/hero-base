@@ -13,9 +13,6 @@ const Navbar: React.FC = () => {
         
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
-            <a href={"/"}>
-            <p className="flex text-white justify-center items-center text-[40px]">Tyler Stocks</p>
-            </a>
             
             <ul className="hidden md:flex gap-x-6 text-white">
               <NavItem path="/" name="Home"/>
@@ -25,6 +22,7 @@ const Navbar: React.FC = () => {
           </div>
         </div>
       </div>
+
     </>
   );
 };

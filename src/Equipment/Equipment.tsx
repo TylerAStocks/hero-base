@@ -1,13 +1,11 @@
 import { useState } from 'react';
-import HBDataTable from '../HBDataTable.tsx';
-
-import Headquarters from './Headquarters/Headquarters.tsx';
 import GroundVehicles from './Vehicles/GroundVehicles/GroundVehicles.tsx';
+import TabButton from '../DataTables/TabButton.tsx';
+import Headquarters from './Headquarters/Headquarters.tsx';
 
-import TabButton from '../TabButton.tsx';
 
 
-export function Equipment() {
+const Equipment: React.FC = () => {
 
     const [tab, setTab] = useState('Headquarters');
 

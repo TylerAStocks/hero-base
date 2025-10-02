@@ -1,8 +1,8 @@
 
-import HBDataTable from '../../HBDataTable.tsx';
+import HBDataTable from '../../DataTables/HBDataTable.tsx';
 import headquarters from './headquarters.json';
 
-export function Headquarters() {
+const Headquarters: React.FC = () => {
   return (
     <div>
 
