@@ -1,12 +1,7 @@
-'use client';
 
-import { Box } from '@mantine/core';
 import { DataTable } from 'mantine-datatable';
-import TextField from '@mui/material/TextField';
-import Autocomplete from '@mui/material/Autocomplete';
-import { useEffect, useState } from 'react';
 
-interface HBDataTable {
+interface HBDataTableType {
     main: string;
     tab: string;
     records: {
@@ -17,7 +12,7 @@ interface HBDataTable {
 }
 
 
-export const HBDataTable: React.FC<HBDataTable> = ({tab, main, records}) => {
+export const HBDataTable: React.FC<HBDataTableType> = ({tab, main, records}) => {
 
   const columns = Object.keys(records[0]).map((column) => {
     return {accessor: column}

@@ -1,13 +1,11 @@
-import { useState } from "react";
 
-
-interface TabButton {
+interface TabButtonType {
     name: string;
     setTab: any;
     tab: string;
 }
 
-const TabButton: React.FC<TabButton> = ({ name, setTab, tab}) => {
+const TabButton: React.FC<TabButtonType> = ({ name, setTab, tab}) => {
 
     const onTabClick = () => {
         setTab(name)

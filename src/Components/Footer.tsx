@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
             boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
         }}
         >
-        <a target="_blank" href={"https://drive.google.com/file/d/1LVQd2qZbaC7TF96OMATlBatraJNDFFbk/view?usp=sharing"} >
+        <a rel="noreferrer" target="_blank" href={"https://drive.google.com/file/d/1LVQd2qZbaC7TF96OMATlBatraJNDFFbk/view?usp=sharing"} >
                 <p>Rulebook</p>
         </a>
       </div>

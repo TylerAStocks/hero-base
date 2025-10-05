@@ -9,9 +9,6 @@ const Equipment: React.FC = () => {
 
     const [tab, setTab] = useState('Headquarters');
 
-    const onTabClick = (value: string) => {
-        setTab(value)
-    }
   return (
     <div>
 

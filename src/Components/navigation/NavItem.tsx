@@ -1,23 +1,15 @@
 
-import { FC, useEffect, useState } from "react";
-import { Outlet, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import './NavItem.css';
 
-interface NavItem {
+interface NavItemType {
     path?: string
     name?: string
 }
 
 
-const NavItem: React.FC<NavItem> = ({path, name}) => {
+const NavItem: React.FC<NavItemType> = ({path, name}) => {
 
-
-    const [activePath, setActivePath] = useState('/')
-
-    useEffect(() => {
-        setActivePath(window.location.pathname)
-        console.log('path changed')
-    }, [window.location.pathname])
 
     return (
         <li >
