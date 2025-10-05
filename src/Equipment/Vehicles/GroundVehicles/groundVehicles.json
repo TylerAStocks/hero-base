@@ -1,26 +1,110 @@
 {
-    "main": "Ground Vehicles",
-    "records": [
-        {
-        "name": "Armored Car",
-        "body": "9d",
-        "speed": "6d",
-        "control": "0d",
-        "weapons": "-"
+  "main": "Ground Vehicles",
+  "records": [
+    {
+      "name": "Armored Car",
+      "body": "9d",
+      "speed": "6d",
+      "control": "0d",
+      "weapons": "-"
     },
     {
-        "name": "Bus",
-        "body": "9d",
-        "speed": "6d",
-        "control": "-1d",
-        "weapons": "-"
+      "name": "Bus",
+      "body": "9d",
+      "speed": "6d",
+      "control": "-1d",
+      "weapons": "-"
     },
     {
-        "name": "Car, Limousine, SUV",
-        "body": "8d",
-        "speed": "6d",
-        "control": "0d",
-        "weapons": "-"
+      "name": "Car, Limousine/SUV",
+      "body": "8d",
+      "speed": "6d",
+      "control": "0d",
+      "weapons": "-"
+    },
+    {
+      "name": "Car, Sedan",
+      "body": "7d",
+      "speed": "6d",
+      "control": "+1d",
+      "weapons": "-"
+    },
+    {
+      "name": "Car, Sports",
+      "body": "6d",
+      "speed": "7d",
+      "control": "+2d",
+      "weapons": "-"
+    },
+    {
+      "name": "Chariot*",
+      "body": "4d",
+      "speed": "5d",
+      "control": "-1d",
+      "weapons": "-"
+    },
+    {
+      "name": "Dune Buggy*",
+      "body": "6d",
+      "speed": "5d",
+      "control": "+1d",
+      "weapons": "-"
+    },
+    {
+      "name": "Mecha",
+      "body": "14d",
+      "speed": "6d",
+      "control": "+2d",
+      "weapons": "14d"
+    },
+    {
+      "name": "Military, APC",
+      "body": "10d",
+      "speed": "5d",
+      "control": "+1d",
+      "weapons": "9d"
+    },
+    {
+      "name": "Military, Humvee",
+      "body": "8d",
+      "speed": "6d",
+      "control": "+1d",
+      "weapons": "-"
+    },
+    {
+      "name": "Military, Tank",
+      "body": "12d",
+      "speed": "5d",
+      "control": "+1d",
+      "weapons": "13d"
+    },
+    {
+      "name": "Motorcycle*",
+      "body": "5d",
+      "speed": "7d",
+      "control": "+3d",
+      "weapons": "-"
+    },
+    {
+      "name": "Scooter*",
+      "body": "4d",
+      "speed": "5d",
+      "control": "+1d",
+      "weapons": "-"
+    },
+    {
+      "name": "Truck",
+      "body": "9d",
+      "speed": "6d",
+      "control": "-1d",
+      "weapons": "-"
+    },
+    {
+      "name": "Truck, Big Rig",
+      "body": "10d",
+      "speed": "6d",
+      "control": "-2d",
+      "weapons": "-"
     }
-]
+  ]
 }

@@ -1,0 +1,110 @@
+{
+  "main": "Water Vehicles",
+  "records": [
+    {
+      "name": "Ancient, Galley/Ship (30)**",
+      "body": "10d",
+      "speed": "3d",
+      "control": "-3d",
+      "weapons": "10d"
+    },
+    {
+      "name": "Military, Aircraft Carrier (90)**",
+      "body": "14d",
+      "speed": "5d",
+      "control": "-9d",
+      "weapons": "16d"
+    },
+    {
+      "name": "Military, Battleship (90)**",
+      "body": "14d",
+      "speed": "5d",
+      "control": "-9d",
+      "weapons": "18d"
+    },
+    {
+      "name": "Military, Destroyer (60)**",
+      "body": "13d",
+      "speed": "5d",
+      "control": "-6d",
+      "weapons": "17d"
+    },
+    {
+      "name": "Military, Frigate (30)**",
+      "body": "13d",
+      "speed": "5d",
+      "control": "-3d",
+      "weapons": "15d"
+    },
+    {
+      "name": "Military, Nuclear Sub (90)**",
+      "body": "14d",
+      "speed": "5d",
+      "control": "-9d",
+      "weapons": "16d"
+    },
+    {
+      "name": "Military, Patrol Boat",
+      "body": "11d",
+      "speed": "6d",
+      "control": "0d",
+      "weapons": "10d"
+    },
+    {
+      "name": "Military, Submarine (30)**",
+      "body": "13d",
+      "speed": "4d",
+      "control": "-3d",
+      "weapons": "15d"
+    },
+    {
+      "name": "Ocean Liner (60)**",
+      "body": "12d",
+      "speed": "5d",
+      "control": "-6d",
+      "weapons": "-"
+    },
+    {
+      "name": "Sailboat*",
+      "body": "7d",
+      "speed": "4d",
+      "control": "-1d",
+      "weapons": "-"
+    },
+    {
+      "name": "Speedboat*",
+      "body": "6d",
+      "speed": "6d",
+      "control": "+1d",
+      "weapons": "-"
+    },
+    {
+      "name": "Submersible",
+      "body": "9d",
+      "speed": "5d",
+      "control": "-2d",
+      "weapons": "-"
+    },
+    {
+      "name": "Tanker (60)**",
+      "body": "12d",
+      "speed": "4d",
+      "control": "-6d",
+      "weapons": "-"
+    },
+    {
+      "name": "Wave Runner*",
+      "body": "5d",
+      "speed": "5d",
+      "control": "+1d",
+      "weapons": "-"
+    },
+    {
+      "name": "Yacht",
+      "body": "9d",
+      "speed": "5d",
+      "control": "-2d",
+      "weapons": "-"
+    }
+  ]
+}

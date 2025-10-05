@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import GroundVehicles from './Vehicles/GroundVehicles/GroundVehicles.tsx';
-import TabButton from '../DataTables/TabButton.tsx';
+import TabButton from '../Components/DataTables/TabButton.tsx';
 import Headquarters from './Headquarters/Headquarters.tsx';
+import Vehicles from './Vehicles/Vehicles.tsx';
 
 
 
@@ -16,14 +16,14 @@ const Equipment: React.FC = () => {
     <div>
 
     <p>Equipment</p>
-    <TabButton name="Headquarters" setTab={setTab}/>
-    <TabButton name="Ground Vehicles" setTab={setTab} />
+    <TabButton name="Headquarters" setTab={setTab} tab={tab}/>
+    <TabButton name="Vehicles" setTab={setTab} tab={tab}/>
 
     {tab === 'Headquarters' && (
         <Headquarters />
     )}
-    {tab === 'Ground Vehicles' && (
-        <GroundVehicles />
+    {tab === 'Vehicles' && (
+        <Vehicles />
     )}
 
     </div>

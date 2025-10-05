@@ -1,7 +1,7 @@
 
 
 
-import HBDataTable from '../../../DataTables/HBDataTable.tsx';
+import HBDataTable from '../../../Components/DataTables/HBDataTable.tsx';
 import groundVehicles from '../GroundVehicles/groundVehicles.json'
 
 export function GroundVehicles() {

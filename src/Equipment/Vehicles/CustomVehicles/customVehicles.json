@@ -1,0 +1,122 @@
+{
+    "main": "UNIQUE VEHICLES The Unique Vehicle Perk means you possess a vehicle with unique properties. Every Hero Point you put into this Perk grants you 25 Vehicle Points. You spend Vehicle Points to create unique vehicles from scratch or to improve unique vehicles you already possess. Multiple Heroes can pool their Vehicle Points together to create a single, seriously sweet ride if they wish. CHARACTERISTICS You spend Vehicle Points to buy or improve a unique vehicle’s Body, Speed, Control, and Weapons. Body, Speed, and Weapons cost 1 Vehicle Point per rank. Control costs 2 Vehicle Points per rank and can’t exceed half the vehicle’s Speed. Giving your unique vehicle a negative Control value lowers its cost by 2 Vehicle Points per negative rank, down to a minimum of −3d Control. When creating a unique vehicle from scratch, Body, Speed, and Control have an initial rank of 0d, while Weapons has an initial rank of “n/a” (your unique vehicle isn’t armed unless you spend points on Weapons).",
+    "records": [
+        {
+            "name": "Cargo Hold",
+            "cost": "2 vehicle points",
+            "description": "The vehicle can store a great deal of cargo and includes lifts, ramps, and similar elements to facilitate loading and unloading. The specifics are up to you and your GM. The storage space provided by this feature is separate from that provided by Hidden Compartments (see below)."
+        },
+        {
+            "name": "Com System",
+            "cost": "2 vehicle points",
+            "description": "The vehicle incorporates some kind of long-range communication system, whatever is considered top-of-the-line in your setting. Being equipment, this feature isn’t as versatile as the Communications Power and requires a communications infrastructure for long-distance transmissions."
+        },
+        {
+            "name": "Disguise",
+            "cost": "2 vehicle points",
+            "description": "Whether by means of an image projector, a magic spell, the ability to actually transform, or something else, the vehicle can make itself look like an entirely different vehicle (albeit of the same type). If the vehicle has the Transforming feature (see below), this feature can apply to one of its configurations, or it can mean you can’t tell that the different forms are configurations of the same vehicle."
+        },
+        {
+            "name": "Flight",
+            "cost": "2 vehicle points",
+            "description": "The vehicle travels through the air, in space, or both. Vehicles with this feature need room to maneuver and can’t travel indoors or move through extremely cramped quarters, at least not when moving through the air. If the vehicle also has the Running or Swimming features, you must buy separate Speed and Control values for each."
+        },
+        {
+            "name": "Giant",
+            "cost": "-6 vehicle points",
+            "description": "The vehicle is much larger than an ordinary ground vehicle. It takes up several lanes of traffic, cannot fit into most tunnels, and will not be able to move through ordinary city streets without causing significant collateral damage. Only ground vehicles can have this feature (although any vehicle can be large)."
+        },
+        {
+            "name": "Gunnery Station",
+            "cost": "2 vehicle points per gunnery station",
+            "description": "Vehicle weapons can be fired once per page by a pilot or gunner. Extra attacks are possible, but they suffer the usual multiple action penalty regardless of who makes them (the penalty applies to the vehicle rather than to individual characters). This feature means the vehicle has one or more gunnery stations (1 per 2 Vehicle Points). Every gunnery station allows a different character to use the vehicle’s weapons to perform one extra attack per page without suffering multiple action penalties."
+        },
+        {
+            "name": "Hidden Compartments",
+            "cost": "1 or 2 vehicle points",
+            "description": "The vehicle has hidden storage compartments. Small compartments only large enough to hide weapons and personal items cost 1 Vehicle Point, while large ones roomy enough to hide the vehicle’s crew and passengers, or a good deal of smuggled cargo cost 2 Vehicle Points."
+        },
+        {
+            "name": "Integrated AI",
+            "cost": "1 vehicle point per rank",
+            "description": "The vehicle can operate independently with a Vehicles rank equal to the number of Vehicle Points put into this feature. Although this usually means the vehicle is controlled by computer, it could mean something completely different. For example, the vehicle might be magically animated, or it might be alive and sentient, singing songs into the minds of those who visit its space dock."
+        },
+          {
+            "name": "Mecha",
+            "cost": "1 vehicle point per Might rank",
+            "description": "The vehicle is shaped like a person and has at least two arms that end in hands (or the rough equivalent) and at least two legs, allowing it to do things ordinary vehicles can’t like move laterally, peek over objects, and hunker down behind cover. The limbs have whatever Might rank you give them, but you make Control rolls when using the hands for delicate work or the legs for delicate maneuvers. When using the limbs to attack, substitute the vehicle’s Might rank for its Weapons rank. Only ground vehicles can have this feature and a vehicle’s Might must equal at least half its Body. This feature applies to vehicles that, while humanoid in shape, still operate like vehicles; giant robot vehicles that are as agile as human beings should be treated like giant characters."
+        },
+        {
+            "name": "Open Cockpit",
+            "cost": "-2 vehicle points",
+            "description": "The vehicle has an open cockpit, so its crew and passengers can be targeted directly and can’t use the vehicle’s Body when making passive defense rolls against attacks."
+        },
+        {
+            "name": "Passengers",
+            "cost": "1 vehicle point per 4 extra passengers",
+            "description": "The default vehicle carries only two people (one driver or pilot and one passenger). This feature means the vehicle can carry more people (4 per Vehicle Point)."
+        },
+        {
+            "name": "Personal",
+            "cost": "2 vehicle points",
+            "description": "For whatever reason (access codes, genetic tagging, inherent worthiness, etc.), only a specific person or a specific group of people can operate the vehicle."
+        },
+        {
+            "name": "Remote Control",
+            "cost": "2 vehicle points",
+            "description": "You can operate the vehicle remotely. Operating a vehicle by remote requires just as much attention and focus as it would if you were driving or piloting it."
+        },
+        {
+            "name": "Running",
+            "cost": "0 vehicle points",
+            "description": "The vehicle travels on land. If the vehicle also has the Flight or Swimming features, you must buy separate Speed and Control values for each."
+        },
+        {
+            "name": "Security Systems",
+            "cost": "1 vehicle point",
+            "description": "The vehicle has excellent security systems far above and beyond the usual, making it extremely hard to steal. Any challenge rolls made to attempt to steal it have a Superhuman (6) threshold."
+        },
+        {
+            "name": "Sensors",
+            "cost": "10 vehicle points",
+            "description": "The vehicle has a full sensor suite that works like a combination of Radar and the Super Senses: Circular Vision, Telescopic Vision, Thermal Vision, and Ultra Vision. Sensor data can be recorded and, if the vehicle has the Com System feature, transmitted."
+        },
+        {
+            "name": "Small",
+            "cost": "2 vehicle points",
+            "description": "The vehicle is small (anywhere from as small as a surfboard to as large as a motorcycle) and can maneuver in places inaccessible to ordinary vehicles. Notwithstanding this feature, a small vehicle must still be a vehicle; if a “vehicle” is small enough to be carried, worn, or taken anywhere a character can go, it should be treated like a Power with the Item Con."
+        },
+        {
+            "name": "Spaceflight",
+            "cost": "4 vehicle points",
+            "description": "The vehicle can operate in the vacuum of space and includes life support systems necessary to protect its crew and passengers. It can also cross vast interstellar distances at speeds far beyond that of light. The Flight feature is still required to fly in an atmosphere."
+        },
+        {
+            "name": "Spaceship",
+            "cost": "2 vehicle points",
+            "description": "The vehicle can operate in the vacuum of space and includes life support systems necessary to protect its crew and passengers. The Flight feature is still required to fly in an atmosphere."
+        },
+        {
+            "name": "Submersible",
+            "cost": "2 vehicle points",
+            "description": "The vehicle can operate underwater and includes life support systems necessary to protect its crew and passengers. Only vehicles with the Swimming feature can have this feature."
+        },
+        {
+            "name": "Swimming",
+            "cost": "-4 vehicle points",
+            "description": "The vehicle travels on water. If the vehicle also has the Flight or Running features, you must buy separate Speed and Control values for each."
+        },
+        {
+            "name": "Transforming",
+            "cost": "-2 vehicle points",
+            "description": "This feature applies to vehicles with two or more of the following features: Flight, Running, Submersible, and Swimming. The vehicle must spend one page doing nothing but transforming into a different configuration each time it switches between these modes, or you can spend 1 Resolve to do this as an action instead."
+        },
+        {
+            "name": "Unique Systems",
+            "cost": "1 vehicle point per Hero Point",
+            "description": "You can spend Vehicle Points in place of Hero Points to buy Abilities, Talents, and Powers that represent unique vehicle systems. Unique vehicle Powers begin at 0d even if they have a baseline rank. A vehicle with the Mecha feature can use its Might as the baseline rank for Strike. Common vehicle Powers include Aura, Blending, Darkness, Dazzle, Deflection, Detection, Dimensional Travel, Ensnare, Force Field, Invisibility, Light, Machine Control, Radar, Shrinking, Slick, Strike, Stun, Teleportation, Time Travel, Total Recall, Tracer, Tunneling, and Wall-Crawling."
+        }
+
+
+    ]
+}

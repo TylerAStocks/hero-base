@@ -1,15 +1,116 @@
 {
-    "main": "Headquarters are as varied as the Heroes and Villains that use them: arctic fortresses, cave complexes, innocuous brownstones, island compounds, orbiting satellites, sprawling mansions, undersea bases, and on and on. Although some groups prefer to leave the creation of a team headquarters to their GM, others like to have a more direct hand in the design of their home base. For those groups, these rules provide guidelines for creating your own unique base of operation. BASE FEATURES The Headquarters Perk grants you a basic headquarters, a space no larger than an average mansion or warehouse with whatever basic rooms, equipment, and facilities you would like. At this stage of the process, your headquarters is a relatively mundane affair. However, every Hero Point you put into the Headquarters Perk also grants you 3 Base Points you can spend to improve your headquarters by adding the unique features described below. As always, feel free to add any you think we missed. Multiple Heroes can pool their Base Points together to create an even better headquarters. For the most part, features are described in narrative rather than mechanical terms. However, GMs may grant Heroes a +1d bonus to challenge rolls whenever they can take advantage of an advanced feature in their headquarters. For example, if your base has the Advanced Science Labs feature, the GM may grant you a +1d bonus to Investigation rolls if you can bring any clues you find back to your headquarters for further analysis.",
-    "records": [
-        {
-            "name": "Alternate Headquarters",
-            "cost": 1,
-            "description": "Every Base Point you put into this feature grants you an extra headquarters, in case your primary base of operations gets compromised, destroyed, infested with termites, or otherwise becomes undesirable. Your alternate headquarters can be identical to the primary one, or completely different, but it can’t cost more Base Points than your primary headquarters."
-        },
-        {
-            "name": "Communications",
-            "cost": "1 to 2",
-            "description": "You presumably have one or more dedicated computers, phone lines, radios, and whatever other mundane telecommunications equipment you want in your headquarters. This feature, however, means you have something more. One Base Point provides you with standard communications roughly equivalent the best modern-day telecommunications systems and includes, at the very least, military grade encryption. Two Base Points provides you with a communications system that incorporates advanced technology or magic. This system is all-but impossible to hack into and allows you to interface with most global, interstellar, and possibly interdimensional communications systems."
-        }
-    ]
+  "main": "Headquarters are as varied as the Heroes and Villains that use them: arctic fortresses, cave complexes, innocuous brownstones, island compounds, orbiting satellites, sprawling mansions, undersea bases, and on and on. Although some groups prefer to leave the creation of a team headquarters to their GM, others like to have a more direct hand in the design of their home base. For those groups, these rules provide guidelines for creating your own unique base of operation. BASE FEATURES The Headquarters Perk grants you a basic headquarters, a space no larger than an average mansion or warehouse with whatever basic rooms, equipment, and facilities you would like. At this stage of the process, your headquarters is a relatively mundane affair. However, every Hero Point you put into the Headquarters Perk also grants you 3 Base Points you can spend to improve your headquarters by adding the unique features described below. As always, feel free to add any you think we missed. Multiple Heroes can pool their Base Points together to create an even better headquarters. For the most part, features are described in narrative rather than mechanical terms. However, GMs may grant Heroes a +1d bonus to challenge rolls whenever they can take advantage of an advanced feature in their headquarters. For example, if your base has the Advanced Science Labs feature, the GM may grant you a +1d bonus to Investigation rolls if you can bring any clues you find back to your headquarters for further analysis.",
+  "records": [
+    {
+      "name": "Alternate Headquarters",
+      "cost": 1,
+      "description": "Every Base Point you put into this feature grants you an extra headquarters, in case your primary base of operations gets compromised, destroyed, infested with termites, or otherwise becomes undesirable. Your alternate headquarters can be identical to the primary one, or completely different, but it can’t cost more Base Points than your primary headquarters."
+    },
+    {
+      "name": "Communications",
+      "cost": "1 to 2",
+      "description": "You presumably have one or more dedicated computers, phone lines, radios, and whatever other mundane telecommunications equipment you want in your headquarters. This feature, however, means you have something more. One Base Point provides you with standard communications roughly equivalent the best modern-day telecommunications systems and includes, at the very least, military grade encryption. Two Base Points provides you with a communications system that incorporates advanced technology or magic. This system is all-but impossible to hack into and allows you to interface with most global, interstellar, and possibly interdimensional communications systems."
+    },
+    {
+      "name": "Data Store",
+      "cost": "1 to 2",
+      "description": "Anyone can access an incredible amount of information from anywhere in the world using only their smartphone. This feature, however, means your headquarters provides you with a wealth of accurate, relevant, and readily accessible data on countless topics. This could come in the form of a database, a library, advanced web technology, a magic mirror, or something else. One Base Point gives you a standard data store filled with information about our world, while two Base Points gives you an advanced data store that provides information on a galactic or interdimensional scale."
+    },
+    {
+      "name": "Defenses",
+      "cost": "1 to 2",
+      "description": "Your base includes personnel, systems, or both that actively defend it against hostile intruders. One Base Point provides you with standard defenses in the form of human or animal guards and passive systems like gas dispensers and tasers that react when intruders attempt to perform certain actions or access certain parts of the headquarters. Two Base Points provides you with next-level defenses that often incorporate advanced technology or magic. Whether they’re elite troops, robot sentries, bound spirits, magical wards, or something else, these defenses will actively hunt down hostile intruders and attempt to capture or otherwise pacify them. Whatever the case, your defenses always use non-lethal force (although anything’s possible when the GM spends a point of Adversity on a misfortune)."
+    },
+    {
+      "name": "Disguised",
+      "cost": 1,
+      "description": "Your headquarters is disguised to look like something else. For example, it might look like a regular barbershop, brownstone, mansion, office building, or industrial laundry facility on the outside. Note that this is different from a base that’s hard to find — for that, see the Hidden feature."
+    },
+    {
+      "name": "Emergency Systems",
+      "cost": 1,
+      "description": "Your headquarters has back-up power and telecommunications systems. As a result, it will be unaffected by downed phone lines, power outages, and other events that would normally interrupt these systems."
+    },
+    {
+      "name": "Hidden",
+      "cost": 1,
+      "description": "Your headquarters is hard to find, and often accessible only by a few secret routes. The best example of this kind of base would be one hidden in an underground cave complex. Note that this is different from a base that’s hard to get to; for that, see the Remote feature."
+    },
+    {
+      "name": "Holding Cells",
+      "cost": "1 to 2",
+      "description": "Although you can always tie someone up and lock them in a room or chain them to a column, your headquarters will not have dedicated holding cells unless you spend Base Points on this feature. One Base Point provides you with standard holding cells tough enough to hold mundane prisoners. Two Base Points provides you with holding cells that incorporate advanced technology or magic, allowing you to hold most super-powered prisoners, often using power nullifiers. Having said that, every once in a while, expect your GM to spend Adversity on a misfortune that allows one or more of the prisoners in your holding cells to break free and cause you no end of grief."
+    },
+    {
+      "name": "Living Areas",
+      "cost": 1,
+      "description": "Your headquarters can house a number of individuals — exactly how many depends on the size of the place — and includes everything you would expect to find in a comfortable residence: bathrooms, dining areas, kitchens, lounges, recreation areas, private sleeping quarters, and so on."
+    },
+    {
+      "name": "Maintenance Bays",
+      "cost": "1 to 2",
+      "description": "Any headquarters is going to include a dock, garage, hangar, or helipad for whatever vehicles you may possess. This feature means your base also includes maintenance bays that allow you to perform repairs and even modify your vehicles. One Base Point provides you with standard maintenance bays as good as those found anywhere in the world. Two Base Points provides you with maintenance bays that incorporate advanced technology or magic and can be used to repair or modify vehicles that employ advanced, alien, or magical technology."
+    },
+    {
+      "name": "Medical Facilities",
+      "cost": "1 to 2",
+      "description": "Any headquarters can have a room with cots and basic medical equipment. If you spend Base Points on this feature, however, your base includes true medical facilities. These facilities are able to handle patients who need serious medical attention and may be used to create drugs and medicines, as per the Gadgets rules. One Base Point provides you with standard medical facilities roughly equivalent to those found in the world’s premier research hospitals. Two Base Points provides you with advanced medical facilities that can treat beings with alien or bizarre physiologies and even supernatural creatures."
+    },
+    {
+        "name": "Mobile",
+        "cost": 0,
+        "description": "Your headquarters can travel from place to place. Although this feature is free, mobile bases are also unique vehicles, so you’ll have to spend Hero Points on the Unique Vehicles Perk to purchase the base’s vehicular characteristics and unique vehicle features. Mobile headquarters are always capital ships: standard bases have 30 Health, bases with the Large Size feature have 60 Health, and those with the Sprawling Size feature have 120 Health. Headquarters with the Enormous Size feature are completely off the scale and can’t be attacked or destroyed like normal capital ships."
+    },
+    {
+        "name": "Personnel",
+        "cost": 1,
+        "description": "Your headquarters has a staff of some kind that keeps the place up and running while you’re away doing your thing. Your staff can include mundane human employees or volunteers, robotic servants, captive spirits, a built-in AI that operates the whole facility, or whatever else you want."
+    },
+    {
+        "name": "Reinforced",
+        "cost": "1 to 2",
+        "description": "This feature means your headquarters is significantly tougher than a normal building. One Base Point provides you with standard reinforcement roughly equivalent to a modern-day bomb shelter or military bunker. While powerful supers and heavy-duty military ordnance can penetrate your headquarters, little else can, at least not without a great deal of time and effort. Two Base Points provides you with reinforcement that incorporates advanced technology or magic, making it all-but impenetrable to anything except the most powerful of supers and cosmic-scale events."
+    },
+    {
+    "name": "Remote",
+    "cost": 1,
+    "description": "Your headquarters is in a remote or hard-to-reach location such as in the Arctic, on the ocean floor, in orbit, on the Moon, or in another dimension. This feature doesn't automatically provide you with a way to travel to and from your base, but it does assume your headquarters incorporates whatever life-support systems may be required in that location."
+  },
+  {
+    "name": "Science Labs",
+    "cost": "1 to 2",
+    "description": "This feature means your headquarters includes one or more dedicated science labs where you can study things you find in the field. They are also where you can create substances and materials, as per the Gadgets rules. One Base Point provides you with standard science labs equivalent to those found in the world's leading-edge companies and institutions. Two Base Points provides you with science labs that incorporate advanced technology or magic and allow you to analyze even high-tech or magical materials and energies."
+  },
+  {
+    "name": "Security Systems",
+    "cost": "1 to 2",
+    "description": "Your headquarters is assumed to have mundane security systems such as locks, alarms, and video cameras in place. This feature means your security systems go even further. One Base Point provides you with standard security systems about as good as you can find anywhere in the world, and all-but-impossible for anyone lacking superpowers to penetrate. Two Base Points provides you with security systems that incorporate advanced technology or magic, making them effective against almost every form of intrusion, even by supers. That said, no security system is foolproof, especially not when the GM is willing to spend Adversity on the occasional misfortune."
+  },
+  {
+    "name": "Size",
+    "cost": "1 to 3",
+    "description": "Your headquarters is much larger than normal. One Base Point provides you with a large base, about the size of an industrial complex, medieval castle, or office building. Two Base Points provides you with a sprawling base, about the size of a city block, an island complex, a moon base, an orbiting satellite, or a sizable estate. Three Base Points provides you with a truly awe-inspiring base. Almost anything goes at this level, including tiny Eastern European nations and space stations the size of a small moon."
+  },
+  {
+    "name": "Tesseract",
+    "cost": 2,
+    "description": "Whether due to advanced technology that can fold spacetime, magic that alters the fabric of reality, or something else, your headquarters is much larger on the inside than it appears on the outside. With this feature, even something as small as a phone booth can hold a base as large as a giant space station."
+  },
+  {
+    "name": "Training Facilities",
+    "cost": 2,
+    "description": "Any headquarters can have an empty space where you spar, lift weights, and shirtlessly salmon ladder your way to fame. This feature, however, means your base includes a sophisticated training facility that lets you and your teammates run simulations and practice drills. Often situated on large areas of open land or in massive rooms, training facilities are usually equipped with advanced holographic \"hard light\" technology or something equally nonsensical that allows them to simulate any number of real world environments and situations. Many are even able to simulate combat with known Villains. If you and your teammates have a headquarters with this feature, you each gain 1 point of Teamwork at the start of every issue. Teamwork works like Resolve that can only be used to assist your allies in combat or during action scenes. Also, know with absolute certainty that eventually your GM will spend Adversity to have your training facilities go completely haywire and try to kill you."
+  },
+  {
+    "name": "Transport",
+    "cost": 2,
+    "description": "Especially useful for headquarters with the Remote feature, this means your headquarters includes advanced or magical means of transportation to and from the base. For example, your base may incorporate something like teleport pads, an interdimensional gateway, or a magic portal."
+  },
+  {
+    "name": "Workshops",
+    "cost": "1 to 2",
+    "description": "Your headquarters includes facilities for designing and manufacturing things, from ordinary devices and machines to unique Gadgets. One Base Point provides you with a standard workshop, a top of the line facility that allows you to create innovative devices and machines. Two Base Points provides you with a workshop that incorporates advanced technology or magic and allows you to create high-tech, magical, and otherwise fantastical objects."
+  }
+
+]
 }

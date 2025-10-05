@@ -2,6 +2,9 @@
 
 import { Box } from '@mantine/core';
 import { DataTable } from 'mantine-datatable';
+import TextField from '@mui/material/TextField';
+import Autocomplete from '@mui/material/Autocomplete';
+import { useEffect, useState } from 'react';
 
 interface HBDataTable {
     main: string;
@@ -10,7 +13,7 @@ interface HBDataTable {
       description: string;
       cost: number | string;
       name: string;
-    }[]
+    }[] | undefined
 }
 
 
@@ -20,10 +23,35 @@ export const HBDataTable: React.FC<HBDataTable> = ({tab, main, records}) => {
     return {accessor: column}
   })
 
+  //const [search, setSearch] = useState('');
+  //const [tableRecords, setTableRecords] = useState(records)
+/* 
+  const onSearch = (e) => {
+    setSearch(e.target.innerHTML)
+  }
+
+  useEffect(() => {
+    if (search.length) {
+      const newRecords = records?.find((record) => record.name.includes(search))
+      console.log(newRecords)
+      setTableRecords(newRecords)
+    }
+  }, [search]) */
+
   return (
     <div>
       <p>{tab}</p>
       <p style={{fontSize: '14px'}}>{main}</p>
+      
+{/*       <Autocomplete
+      style={{marginLeft: '20px'}}
+        disablePortal
+        onChange={onSearch}
+        options={records.map((record) => record.name)}
+        sx={{ width: 300 }}
+        renderInput={(params) => <TextField {...params} label="Name" style={{background: 'white'}}/>}
+      /> */}
+
 <DataTable
       withTableBorder
       borderRadius="sm"
@@ -38,7 +66,7 @@ export const HBDataTable: React.FC<HBDataTable> = ({tab, main, records}) => {
       onRowClick={({ record: { name, description, cost } }) =>
         console.log('CLICK')
       }
-      style={{margin: '20px'}}
+      style={{margin: '40px', marginBottom: '80px'}}
     />
     </div>
   );

@@ -1,0 +1,12 @@
+
+
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item.active {
+    text-decoration: underline;
+    font-weight: bold;
+}

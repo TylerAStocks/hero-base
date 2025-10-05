@@ -1,0 +1,173 @@
+{
+  "main": "Air & Space Vehicles",
+  "records": [
+    {
+      "name": "Airplane, Commercial Airliner",
+      "body": "9d",
+      "speed": "8d",
+      "control": "0d",
+      "weapons": "-"
+    },
+    {
+      "name": "Airplane, Jet Fighter",
+      "body": "8d",
+      "speed": "10d",
+      "control": "+5d",
+      "weapons": "12d"
+    },
+    {
+      "name": "Airplane, Lear Jet",
+      "body": "8d",
+      "speed": "8d",
+      "control": "+1d",
+      "weapons": "-"
+    },
+    {
+      "name": "Airplane, Prop Plane",
+      "body": "7d",
+      "speed": "7d",
+      "control": "+2d",
+      "weapons": "-"
+    },
+    {
+      "name": "Airplane, WWI Biplane*",
+      "body": "6d",
+      "speed": "6d",
+      "control": "+2d",
+      "weapons": "8d"
+    },
+    {
+      "name": "Airplane, WWII Bomber",
+      "body": "8d",
+      "speed": "7d",
+      "control": "+1d",
+      "weapons": "9d"
+    },
+    {
+      "name": "Airplane, WWII Fighter",
+      "body": "7d",
+      "speed": "8d",
+      "control": "+3d",
+      "weapons": "9d"
+    },
+    {
+      "name": "Flying Bike*",
+      "body": "6d",
+      "speed": "7d",
+      "control": "+3d",
+      "weapons": "-"
+    },
+    {
+      "name": "Flying Car*",
+      "body": "7d",
+      "speed": "7d",
+      "control": "+2d",
+      "weapons": "-"
+    },
+    {
+      "name": "Glider or Hang Glider*",
+      "body": "3d or 1d",
+      "speed": "6d",
+      "control": "+2d",
+      "weapons": "-"
+    },
+    {
+      "name": "Helicopter, Civilian",
+      "body": "7d",
+      "speed": "7d",
+      "control": "+3d",
+      "weapons": "-"
+    },
+    {
+      "name": "Helicopter, Military",
+      "body": "8d",
+      "speed": "7d",
+      "control": "+4d",
+      "weapons": "12d"
+    },
+    {
+      "name": "Helicopter, Personal*",
+      "body": "6d",
+      "speed": "7d",
+      "control": "+4d",
+      "weapons": "-"
+    },
+    {
+      "name": "Jet Pack*",
+      "body": "3d",
+      "speed": "7d",
+      "control": "+4d",
+      "weapons": "-"
+    },
+    {
+      "name": "Space Shuttle",
+      "body": "11d",
+      "speed": "10d",
+      "control": "-1d",
+      "weapons": "-"
+    },
+    {
+      "name": "Starship, Destroyer (90)**",
+      "body": "18d",
+      "speed": "10d",
+      "control": "-9d",
+      "weapons": "22d"
+    },
+    {
+      "name": "Starship, Dreadnaught (90)**",
+      "body": "17d",
+      "speed": "10d",
+      "control": "-9d",
+      "weapons": "21d"
+    },
+    {
+      "name": "Starship, Frigate (60)**",
+      "body": "16d",
+      "speed": "10d",
+      "control": "-6d",
+      "weapons": "20d"
+    },
+    {
+      "name": "Starship, Interdictor (30)**",
+      "body": "15d",
+      "speed": "10d",
+      "control": "-3d",
+      "weapons": "18d"
+    },
+    {
+      "name": "Starship, Patrol Craft",
+      "body": "14d",
+      "speed": "11d",
+      "control": "+2d",
+      "weapons": "16d"
+    },
+    {
+      "name": "Starship, Scout Ship",
+      "body": "12d",
+      "speed": "11d",
+      "control": "+4d",
+      "weapons": "14d"
+    },
+    {
+      "name": "Starship, Star Fighter",
+      "body": "11d",
+      "speed": "12d",
+      "control": "+6d",
+      "weapons": "14d"
+    },
+    {
+      "name": "Starship, Transport",
+      "body": "12d",
+      "speed": "11d",
+      "control": "+4d",
+      "weapons": "-"
+    },
+    {
+      "name": "Zeppelin",
+      "body": "8d",
+      "speed": "5d",
+      "control": "-3d",
+      "weapons": "-"
+    }
+  ]
+}
