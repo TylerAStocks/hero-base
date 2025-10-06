@@ -1,7 +1,6 @@
 
 import { DataTable } from 'mantine-datatable';
 import { useState } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
 import HBModal from '../HBModal.tsx';
 
 interface HBDataTableType {
@@ -17,9 +16,6 @@ interface HBDataTableType {
 
 
 export const HBDataTable: React.FC<HBDataTableType> = ({tab, main, records}) => {
-
-  const navigate = useNavigate()
-  const location = useLocation()
 
   const [open, setOpen] = useState(false)
   const [modalData, setModalData] = useState()
@@ -39,34 +35,10 @@ export const HBDataTable: React.FC<HBDataTableType> = ({tab, main, records}) => 
     setOpen(false)
   }
 
-  //const [search, setSearch] = useState('');
-  //const [tableRecords, setTableRecords] = useState(records)
-/* 
-  const onSearch = (e) => {
-    setSearch(e.target.innerHTML)
-  }
-
-  useEffect(() => {
-    if (search.length) {
-      const newRecords = records?.find((record) => record.name.includes(search))
-      console.log(newRecords)
-      setTableRecords(newRecords)
-    }
-  }, [search]) */
-
   return (
     <div>
       <p>{tab}</p>
       <p style={{fontSize: '14px'}}>{main}</p>
-      
-{/*       <Autocomplete
-      style={{marginLeft: '20px'}}
-        disablePortal
-        onChange={onSearch}
-        options={records.map((record) => record.name)}
-        sx={{ width: 300 }}
-        renderInput={(params) => <TextField {...params} label="Name" style={{background: 'white'}}/>}
-      /> */}
 
 <DataTable
       withTableBorder
