@@ -11,6 +11,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './HomePage.tsx';
 import Combat from './Combat/Combat.tsx';
 import Footer from './Components/Footer.tsx';
+import Powers from './Powers/Powers.tsx';
 
 // Define the functional component using React.FC type for type safety
 const App: React.FC = () => {
@@ -28,6 +29,7 @@ const App: React.FC = () => {
             <Route path="/" element={<HomePage />} />
             <Route path="/combat" element={<Combat />} />
             <Route path="/equipment" element={<Equipment />} />
+            <Route path="/powers" element={<Powers />} />
           </Routes>
           <Footer />
         </MantineProvider>

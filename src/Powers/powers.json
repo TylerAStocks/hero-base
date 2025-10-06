@@ -1,0 +1,33 @@
+{
+    "main": "Powers are unique special abilities. Some are rather generic, while others are quite specific. This is by design. The generic Powers are there to let you create any ability you can imagine. The specific ones are there so you don’t have to jump through hoops to create an iconic superpower that everyone recognizes. Whether generic or specific, each Power’s entry includes its range, rank, cost, and description. Many also include specific Pros and Cons applicable only to that Power. Range: Powers have a range of Self, Touch, Ranged, Zone, or Special. Self means the Power affects you. Touch means the Power affects beings and/or objects you touch, so they have to be adjacent to you or at least within Close Range so you can move up to them. Ranged means the Power affects beings and/or objects within Distant Range. Zone is the only range option that incorporates an area of effect, and means the Power always affects everyone and/or everything within 5 to 25 feet of you — you decide how far to extend the Zone each time you use the Power. Last, a few Powers with a range of Special work in some unique way discussed in their descriptions. Rank: This indicates whether the Power has a rank. Power Rank means it does. Baseline Rank (X) also means the Power has a rank, but in this case, the Trait used to determine the Power’s baseline rank is noted in parentheses. When you buy a Power with a baseline rank, add the baseline rank to the number of ranks you purchase to determine the Power’s final rank. Default Rank means the power doesn’t have a rank. You use your Toughness or Willpower (it varies by Source) in place of the Power’s rank when dealing with Powers that affect other Powers. Last, a few Powers with a rank of Special work in some unique way discussed in their descriptions. A Power’s rank is normally used to make challenge rolls. It also helps determine what or how much you can do with a Power. For example, Powers that can move physical objects can usually affect up to the amount you could lift with a Might equal to your Power rank. Unless a Power’s description says otherwise, don’t apply its rank to anything other than what the Power does. For example, neither Flight nor Teleportation specify that your Power rank determines how much you can carry while using those Powers, so that amount is determined as usual (i.e., by your Might). If you have a Power that lets you move faster than normal or in ways an ordinary person can’t (a Travel Power), your Power rank usually indicates your maximum speed, as shown on the Speed table. Ordinary people move at 3d speed, sound travels at 9d, and light clocks in at a brisk 27d. The rank that corresponds to an object’s speed on this table is sometimes called its speed rank. Cost: This indicates how much the Power costs, whether a flat amount or a cost per rank. No Power can ever cost less than 1 Hero Point (or 1 Hero Point per 2 ranks) regardless of its Cons. A few Powers with a cost of Special work in some unique way discussed in their descriptions. Description: This describes what the Power does and how it works. If a Power can be used to attack or affect other characters, its description indicates the Traits that may be used to resist such efforts. The defender always uses whichever Trait offers them the best chance of success when making challenge rolls to resist a Power. Occasionally, a Power’s description may also include notes concerning its use and suggestions to the GM regarding what effect it may have on the game.",
+    "records": [
+        {
+            "name": "Adaptation",
+            "range": "Self",
+            "rank": "Default Rank",
+            "cost": "12 Hero Points",
+            "description": "Your body instantly adapts to your surroundings, letting you breathe, move around, sense things, and survive in alien or hostile environments. For example, you might grow gills, fins, and a membrane over your eyes while underwater, plus you’d become immune to undersea pressure and temperature."
+        },
+        {
+            "name": "Alternate Form",
+            "range": "Self",
+            "rank": "Default Rank",
+            "cost": "4 Hero Points per Power Level",
+            "description": "You can turn into a different form. Create this form as a separate Hero (see below). Your alternate form can be of any power level up to but not higher than yours. For example, if you are a Standard Hero, your other form can be Street Level, Low Level, or Standard. This Power’s cost varies depending on your other form’s power level, as indicated on the Alternate Form table. Your other form’s power level only affects the number of Hero Points you have to create it, not its Trait Cap. Both forms must pay for this Power. As you gain extra Hero Points, you can spend them differently for each form. Buy this Power multiple times if you want multiple forms, but each form must pay this Power’s total cost. For example, if you buy this Power twice to gain 2 alternate Standard forms, all three forms will have to pay the 24 Hero Points. When creating alternate forms, you must give them their own their Abilities, Talents, and Powers, although some of these Traits may share the same rank across multiple forms. Your various forms may share Perks and Flaws, or they might have their own. This varies by character. No matter how many forms you can assume, you only have one pool of Resolve: use the lowest Resolve among your various forms as your actual Resolve. For example, if you have two forms, one that would have 6 Resolve as a separate character and one that would have 1 Resolve as a separate character, you have 1 Resolve.",
+            "children": [
+                {
+                    "type": "CON",
+                    "name": "Independent Forms",
+                    "cost": "-1 per power level",
+                    "description": "Each of your forms has a separate identity, memory, and personality, and your various forms may or may not get along very well."
+                }
+            ]
+        },
+        {
+            "name": "Animal Control",
+            "range": "Ranged",
+            "rank": "Power Rank",
+            "cost": "1 Hero Point per rank",
+            "description": "Whether through mind control or friendly communication, you can make animals do what you want for the Power’s duration by making an Animal Control roll against their Willpower."        }
+    ]
+}

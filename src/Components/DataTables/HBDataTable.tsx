@@ -1,5 +1,8 @@
 
 import { DataTable } from 'mantine-datatable';
+import { useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
+import HBModal from '../HBModal.tsx';
 
 interface HBDataTableType {
     main: string;
@@ -8,15 +11,33 @@ interface HBDataTableType {
       description: string;
       cost: number | string;
       name: string;
+      children: any | undefined;
     }[] | undefined
 }
 
 
 export const HBDataTable: React.FC<HBDataTableType> = ({tab, main, records}) => {
 
-  const columns = Object.keys(records[0]).map((column) => {
+  const navigate = useNavigate()
+  const location = useLocation()
+
+  const [open, setOpen] = useState(false)
+  const [modalData, setModalData] = useState()
+
+  const columns = Object.keys(records[0]).filter((column) => column !== 'children').map((column) => {
     return {accessor: column}
   })
+
+
+
+  const handleOpen = (data) => {
+    setOpen(true)
+    setModalData(data)
+  }
+
+  const handleClose = () => {
+    setOpen(false)
+  }
 
   //const [search, setSearch] = useState('');
   //const [tableRecords, setTableRecords] = useState(records)
@@ -58,11 +79,11 @@ export const HBDataTable: React.FC<HBDataTableType> = ({tab, main, records}) => 
       // define columns
       columns={columns}
       // execute this callback when a row is clicked
-      onRowClick={({ record: { name, description, cost } }) =>
-        console.log('CLICK')
-      }
+      onRowClick={({ record: { name, description, cost, children } }) => handleOpen(children) }
       style={{margin: '40px', marginBottom: '80px'}}
     />
+
+    <HBModal open={open} onClose={handleClose} data={modalData} />
     </div>
   );
 }

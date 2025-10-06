@@ -28,6 +28,7 @@ const Navbar: React.FC = () => {
             
             <ul style={{display: 'flex', gap: '32px'}}>
               <NavItem path="/" name="Home"/>
+              <NavItem path="/powers" name="Powers"/>
               <NavItem path="/equipment" name="Equipment"/>
               <NavItem path="/combat" name="Combat"/>
             </ul>
