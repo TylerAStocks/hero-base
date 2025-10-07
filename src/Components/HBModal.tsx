@@ -37,9 +37,22 @@ const HBModal: React.FC<HBModalType> = ({open, onClose, data}) => {
         <Box sx={style}>
             {data?.map((entry: any) => {
                 return (
-                <Typography id="modal-modal-title" variant="h6" component="h2">
-                {entry?.description}
-                </Typography>
+                    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', margin: '16px'}}>
+                        <div style={{display: 'flex', flexDirection: 'row'}}>
+                            <Typography variant="h6" style={{marginRight: '12px'}}>
+                            {entry?.type}
+                            </Typography>
+                            <Typography variant="h6">
+                            {entry?.name}
+                            </Typography>
+                        </div>
+                        <Typography variant="h6">
+                        ({entry?.cost})
+                        </Typography>
+                    <Typography id="modal-modal-title" >
+                    {entry?.description}
+                    </Typography>
+                    </div>
                 )
             })}
         </Box>

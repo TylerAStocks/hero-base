@@ -28,6 +28,114 @@
             "range": "Ranged",
             "rank": "Power Rank",
             "cost": "1 Hero Point per rank",
-            "description": "Whether through mind control or friendly communication, you can make animals do what you want for the Power’s duration by making an Animal Control roll against their Willpower."        }
+            "description": "Whether through mind control or friendly communication, you can make animals do what you want for the Power’s duration by making an Animal Control roll against their Willpower.",
+            "children": [
+                {
+                    "type": "PRO",
+                    "name": "Calling",
+                    "cost": "+2",
+                    "description": "You can call out to distant animals, which lets you use this Power on creatures within Extreme Range (basically as far as your call can be heard). Controlled animals race to your location, and the Power’s duration doesn’t begin to run until they arrive."
+                },
+                {
+                    "type": "CON",
+                    "name": "Only X",
+                    "cost": "-2 or -4",
+                    "description": "You can only control a specific category, group, or type of animal specified when you buy this Power. This is normally a −2 Con, but if the group of animals is very narrow or of limited utility (such as aquatic animals), this becomes a −4 Con instead."
+                }
+            ]    
+        },
+        {
+            "name": "Animal Empathy",
+            "range": "Self",
+            "rank": "Default Rank",
+            "cost": "1 Hero Point",
+            "description": "You share an empathic understanding with animals. Animals are unlikely to attack you without good reason, such as if they’re injured or protecting their young, and even then, you may be able to dissuade them (especially if you have snacks because, well, because snacks).",
+            "children" : [
+                {
+                    "type": "PRO",
+                    "name": "Speech",
+                    "cost": "+2",
+                    "description": "You can communicate with animals. GMs determine how intelligent mundane animals are in their games and how they react to this. One could reasonably assume that domesticated animals and those comfortable with humans are usually friendly unless trained to be otherwise, but wild animals are likely much more cautious."
+                }
+            ]
+        },
+        {
+            "name": "Animal Mimicry",
+            "range": "Self",
+            "rank": "Power Rank",
+            "cost": "2 Hero Points per rank",
+            "description": "You can mimic animals, gaining their Powers at the lower of their Power rank or your Power rank. When mimicking an animal, you gain all their Powers, even ones that would seem to rely on body parts you lack (claws, gills, wings, etc.). You also gain the animal’s Agility, Might, Perception, and Toughness at the lesser of their respective Ability ranks or your Power rank, but only if their Ability ranks exceed yours. If any of your Abilities are greater, they aren’t affected. You can mimic any natural animal you are familiar with, whether alive or extinct. As for magical creatures like dragons and unicorns, that’s up to the GM. If you are an alien, you mimic alien animals. For the sake of game balance (and everyone’s sanity), these alien animals look different but have the same characteristics as the Earth animals described in Chapter 8. Mimicking an animal or changing your selection is a free action, but you can only do so once per page, twice if you forego your next turn to act.",
+            "children": [
+                {
+                    "type": "PRO",
+                    "name": "Enhanced",
+                    "cost": "+4",
+                    "description": "Whenever you mimic an animal, you can use your Power rank in place of its highest ranked Trait. You can do this for only one Trait per animal (pick one if several Traits have the same rank). For example, gorillas have 6d Might and Toughness. If you use 10d Animal Mimicry to mimic a gorilla, you can give yourself 10d in one of those Abilities."
+                },
+                {
+                    "type": "PRO",
+                    "name": "Selection",
+                    "cost": "+4",
+                    "description": "You can mimic more than one animal at a time, using the best Traits from among all the animals you are mimicking, but this lowers your effective Power rank by 1d per extra animal being mimicked at the same time."
+                }
+            ]  
+        },
+        {
+            "name": "Animation",
+            "range": "Ranged",
+            "rank": "Power Rank",
+            "cost": "2 Hero Points per rank",
+            "description": "You can animate images and objects, bringing them to life until the end of the scene or until you dismiss them. Animated images step off the page, screen, wall, or surface on which you found them and grow to their actual real-world size. Animated objects, meanwhile, begin moving in whatever way seems most natural: statues twist and bend as if their joints were real, flexible objects move like snakes, solid objects gain a cartoonish level of flexibility that allows them to move around, weapons leap into the air as if wielded by invisible enemies, and so on. Animated beings have three Abilities, Agility, Might, and Toughness, plus whatever Powers they should reasonably possess. For example, an animated image of a winged dragon should probably have Blast (Fire) and Flight (whether or not the image was breathing fire or flying), while an animated marble statue should probably have Solid Form. One of your creation’s Traits shares this Power’s rank; the rest have a rank equal to half your Animation rank. You determine which Trait uses your full Power rank on a case-by-case basis. Animated beings are inanimate objects that lack mental faculties and act only in response to your mental commands. You can animate more than one thing at a time, but this lowers your effective Animation rank by 1d per extra object. You can’t animate a physical object whose Structure exceeds your Power rank."
+        },
+        {
+            "name": "Armor",
+            "range": "Self",
+            "rank": "Baseline Rank (1/2 Toughness)",
+            "cost": "1 Hero Point per rank",
+            "description": "You have armor or a personal force field that repels damage. You can use this Power as a passive defense against physical attacks and energy attacks, regardless of the type of damage they inflict. You are completely immune to such attacks if their attack rank is less than or equal to half your Armor rank (unless they have the Penetrating Pro). When dealing with Minions, use their unmodified Threat rank as their attack rank when determining if you are immune to their attacks.",
+            "children": [
+                {
+                    "type": "CON",
+                    "name": "Activated",
+                    "cost": "-1",
+                    "description": "This Power represents a defense you must activate, like a personal force shield or body coating. Although you can do this as a free action, the Power stops working if you are knocked out or otherwise rendered unconscious."
+                },
+                {
+                    "type": "CON",
+                    "name": "Reactive",
+                    "cost": "-2",
+                    "description": "This Power represents something like bracers or a shield that you use to block or deflect incoming attacks. Accordingly, it’s considered an active defense."
+                }
+            ]
+        },
+        {
+            "name": "Astral Projection",
+            "range": "Self",
+            "rank": "Default Rank",
+            "cost": "12 Hero Points",
+            "description": "Your astral form can leave your physical body. You gain Invisible, Phasing (Intangible), and Super Senses (Astral Sight) while in astral form, although you can make yourself visible if you wish. You can also fly in this form, as if you had Flight at your Willpower rank. As long as you are using this Power, your physical body lies dormant, although you will know instantly if it gets moved or harmed."
+        },
+        {
+            "name": "Attuned",
+            "range": "Self",
+            "rank": "Default Rank",
+            "cost": "3 Hero Points",
+            "description": "You are attuned to some aspect of nature like currents and tides, plate tectonics, or weather patterns, to a particular geographic area like a city, forest, jungle, or sacred grove, or to the larger cosmos in general. You can tell when dramatic or unusual disturbances or phenomenon are imminent within your area of attunement. If attuned to a geographic area, you can also tell when powerful beings enter or leave, possibly even when they’re born and when they die, depending on how powerful they are. Your level of sensitivity varies depending on the scope of your attunement. For example, a magician attuned to the mansion that serves as her sanctum sanctorum is keenly aware of everything that happens in her home, while a cosmically attuned galactic guardian is only sensitive to cosmic beings, events, and forces. This Power automatically provides you with basic information, but you can spend 1 Resolve to ask the GM for more in-depth information, assuming there’s any to be had. The information you receive may sometimes be incomplete or misleading, but it is always truthful."
+        },
+        {
+            "name": "Aura",
+            "range": "Self",
+            "rank": "Power Rank",
+            "cost": "2 Hero Points per rank",
+            "description": "Your body inflicts a specific type of energy damage on contact (pick one). Anyone who touches you suffers an attack using your Aura rank that can only be resisted with passive defenses. This also applies to anyone who strikes you in unarmed combat (if you resist an unarmed attack with a passive defense, assume the attacker strikes you, even if you suffer no damage). You can also use Aura to perform close combat attacks that inflict energy damage. If you already have a close combat attack at an equal or greater rank, use its rank +1d instead. Physical objects tend to burn, dissolve, or melt near you, so you suffer no damage from mundane physical objects with a Structure lower than your Aura rank. Wooden weapons usually have 6d Structure, while bullets and metal weapons usually have 9d Structure.",
+            "children": [
+                {
+                    "type": "CON",
+                    "name": "Spines",
+                    "cost": "-2",
+                    "description": "Your body has a covering of quills or spines that inflict physical damage rather than energy damage. As a result, this Power provides no protection against physical attacks."
+                }
+            ]
+        }
     ]
 }

@@ -27,8 +27,10 @@ export const HBDataTable: React.FC<HBDataTableType> = ({tab, main, records}) => 
 
 
   const handleOpen = (data) => {
+    if(data) {
     setOpen(true)
     setModalData(data)
+    }
   }
 
   const handleClose = () => {
