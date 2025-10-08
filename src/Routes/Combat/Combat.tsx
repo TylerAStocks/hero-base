@@ -1,5 +1,5 @@
 
-import HBDataTable from '../Components/DataTables/HBDataTable.tsx';
+import HBDataTable from '../../Components/DataTables/HBDataTable.tsx';
 import combat from './combat.json'
 
 const Combat: React.FC = () => {

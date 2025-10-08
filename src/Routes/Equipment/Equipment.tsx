@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import TabButton from '../Components/DataTables/TabButton.tsx';
+import TabButton from '../../Components/DataTables/TabButton.tsx'
 import Headquarters from './Headquarters/Headquarters.tsx';
 import Vehicles from './Vehicles/Vehicles.tsx';
 

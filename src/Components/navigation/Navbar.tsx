@@ -31,6 +31,7 @@ const Navbar: React.FC = () => {
               <NavItem path="/powers" name="Powers"/>
               <NavItem path="/equipment" name="Equipment"/>
               <NavItem path="/combat" name="Combat"/>
+              <NavItem path="/pointCalculator" name="Point Calculator"/>
             </ul>
           </div>
         </div>

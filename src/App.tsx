@@ -5,13 +5,14 @@ import { MantineProvider } from '@mantine/core';
 
 import '@mantine/core/styles.layer.css';
 import 'mantine-datatable/styles.layer.css';
-import Equipment from './Equipment/Equipment.tsx';
 import Navbar from './Components/navigation/Navbar.tsx';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './HomePage.tsx';
-import Combat from './Combat/Combat.tsx';
+import Combat from './Routes/Combat/Combat.tsx';
 import Footer from './Components/Footer.tsx';
-import Powers from './Powers/Powers.tsx';
+import Powers from './Routes/Powers/Powers.tsx';
+import Equipment from './Routes/Equipment/Equipment.tsx';
+import PointCalculator from './Routes/PointCalculator/PointCalculator.tsx';
 
 // Define the functional component using React.FC type for type safety
 const App: React.FC = () => {
@@ -30,6 +31,7 @@ const App: React.FC = () => {
             <Route path="/combat" element={<Combat />} />
             <Route path="/equipment" element={<Equipment />} />
             <Route path="/powers" element={<Powers />} />
+            <Route path="/pointCalculator" element={<PointCalculator />} />
           </Routes>
           <Footer />
         </MantineProvider>

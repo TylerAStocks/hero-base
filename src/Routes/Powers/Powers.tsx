@@ -1,5 +1,5 @@
 
-import HBDataTable from '../Components/DataTables/HBDataTable.tsx';
+import HBDataTable from '../../Components/DataTables/HBDataTable.tsx';
 import powers from './powers.json'
 
 const Powers: React.FC = () => {

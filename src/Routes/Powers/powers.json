@@ -136,6 +136,104 @@
                     "description": "Your body has a covering of quills or spines that inflict physical damage rather than energy damage. As a result, this Power provides no protection against physical attacks."
                 }
             ]
+        },
+        {
+            "name": "Banish",
+            "range": "Ranged",
+            "rank": "Power Rank",
+            "cost":"1 Hero Point per rank",
+            "description": "You can banish a target to another time, place, or dimension (pick one) by making a Banish roll against their Willpower or one of their active defenses. If you wish, you can specify that your version of the Power is resisted with Toughness instead of Willpower, but active defenses always apply as well. You can’t send targets anywhere that would be harmful or from which they can’t return, but characters run by an evil GM have no such restrictions, and all GMs are evil. Even though a banished target isn’t actually present, you can keep using this Power on them until they’ve been defeated — in this case, you aren’t so much attacking as concentrating on keeping them away — but the effect is the same. When Heroes get banished, they often wind up in dangerous or at least interesting locales. Banished Heroes still get their actions, which they can use to fight off hungry monsters, explore strange alien vistas, or do whatever else is appropriate for the place in which they find themselves."
+        },
+        {
+            "name": "Blast",
+            "range": "Ranged",
+            "rank": "Power Rank",
+            "cost": "1 Hero Point per rank",
+            "description": "You can fire a damaging ranged attack. You must specify the kind of damage inflicted when you buy this Power (unless you apply the Weapons Con discussed below).",
+            "children": [
+                {
+                    "type": "PRO",
+                    "name": "Block",
+                    "cost": "+2",
+                    "description": "You can use the Power as an active defense against ranged physical and energy attacks (but not against area attacks) by shooting them down. If you forego your next action, this turns the attack into a blast duel, a 3-exchange contest, with each character using their Blast Power against the other. The first exchange happens immediately. The second happens on your next turn to act. The third and final exchange happens on your opponent’s next turn to act. Whoever wins the contest hits their opponent with a number of successes equal to their Blast rank, and this attack can only be resisted with passive defenses."
+                },
+                {
+                    "type": "PRO",
+                    "name": "Melee",
+                    "cost": "+2",
+                    "description": "You can use the Power as an active defense against close combat attacks. The Power may look different when used in this fashion. For example, your fire Blast might take on the appearance of a flaming sword whenever you get into close combat."
+                },
+                {
+                    "type": "CON",
+                    "name": "Subdual",
+                    "cost": "-1",
+                    "description": "The Power inflicts subdual damage."
+                },
+                {
+                    "type": "CON",
+                    "name": "Weapons",
+                    "cost": "-1",
+                    "description": "This Power represents mastery of a group of weapons as broad or narrow as you like — the level of specificity doesn’t matter. You have to be armed with that type of weapon to use the Power. This lets you use your Blast rank (instead of your Ability plus Weapon Bonus) to make attack rolls while so armed. Otherwise, the weapon works as usual and deals whatever type of damage it normally inflicts."
+                }
+            ]
+        },
+        {
+            "name": "Blending",
+            "range": "Self",
+            "rank": "Default Rank",
+            "cost": "3 Hero Points",
+            "description": "Your coloring can change to match your environment, granting you a +3d bonus on Covert rolls to avoid being seen. If you remain still, you can also make a Covert roll at half your rank (after taking the +3d bonus into account) to avoid being seen when you would otherwise be in plain view."
+        },
+        {
+            "name": "Blind",
+            "range": "Ranged",
+            "rank": "Power Rank",
+            "cost": "1 Hero Point per 2 ranks",
+            "description": "You can blind a living target for the Power’s duration by making a Blind roll against their Toughness or one of their active defenses. Targets affected by this Power suffer a −3d penalty to their attack and active defense rolls in combat unless they have a Power like Blind Fighting or Radar that compensates for this. You can have a version of Blind that affects a sense other than vision, but you and the GM will have to determine whether this has any mechanical effect in combat."
+        },
+        {
+            "name": "Blind Fighting",
+            "range": "Self",
+            "rank": "Default Rank",
+            "cost": "3 Hero Points",
+            "description": "You don’t rely on vision in combat. As a result, you suffer no penalties or adverse effects when fighting in the dark or against opponents you can’t see, whatever the reason."
+        },
+        {
+            "name": "Blink",
+            "range": "Self",
+            "rank": "Power Rank",
+            "cost": "1 Hero Point per rank",
+            "description": "You use your Powers to blink in and out of reality during combat. This can mean any number of things: phasing in and out of the physical world, rapidly changing your size and/or shape, sliding through dimensional portals, teleporting around opponents, or anything else you can image. Use Blink instead of Might when making close combat attack rolls and instead of Agility when making active defense rolls and movement rolls (although this isn’t a Travel Power and doesn’t actually let you move any faster than normal). If you have these Traits or other applicable Powers (such as Evasion, Martial Arts, or Strike) at an equal or greater rank, use their ranks +1d instead."
+        },
+        {
+            "name": "Boost",
+            "range": "Self",
+            "rank": "Baseline Rank (Special)",
+            "cost": "Special",
+            "description": "You can raise the rank of one specific Ability, Talent, or Power (pick one) up to this Power’s rank. This Power costs as many Hero Points per rank as the Trait it affects and uses that Trait as its baseline rank. Cons must be applied to this Power to indicate how and when it operates; otherwise it’s meaningless.",
+            "children": [
+                {
+                    "type": "CON",
+                    "name": "Rage",
+                    "cost": "-2",
+                    "description": "The Power activates when you get really mad. However, your Intellect and all your Talents drop to 1d as long as you remain angry enough to use this Power. Your rage always subsides by the end of a scene. You should also consider the Quirk (Bad Temper) Flaw."
+                }
+            ]
+        },
+        {
+            "name": "Buff",
+            "range": "Zone",
+            "rank": "Default Rank",
+            "cost": "12 Hero Points",
+            "description": "You can spend 1 point of Resolve to bolster yourself and all allies within range, granting you all a +1d bonus on all challenge rolls for the rest of the scene. Your allies must remain within the Power’s area of effect to get this bonus. You must use an action to activate this Power, but once you do, you can sustain it as a free action. This Power always expires at the end of a scene, if not sooner. Buff can’t be stacked, not even if multiple characters have it from different Sources.",
+            "children": [
+                {
+                    "type": "PRO",
+                    "name": "Greater",
+                    "cost": "6",
+                    "description": "You can increase the bonus provided by this Power by +1d per extra point of Resolve spent, up to a maximum of 3 points of Resolve for a +3d bonus. Certain NPCs may be able to push this envelope, but that’s within the GM’s purview."
+                }
+            ]
         }
     ]
 }

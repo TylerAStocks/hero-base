@@ -1,7 +1,8 @@
 
 
 
-import HBDataTable from '../../../Components/DataTables/HBDataTable.tsx';
+
+import HBDataTable from '../../../../Components/DataTables/HBDataTable.tsx';
 import waterVehicles from '../WaterVehicles/waterVehicles.json'
 
 const WaterVehicles: React.FC = () => {
