@@ -234,6 +234,71 @@
                     "description": "You can increase the bonus provided by this Power by +1d per extra point of Resolve spent, up to a maximum of 3 points of Resolve for a +3d bonus. Certain NPCs may be able to push this envelope, but that’s within the GM’s purview."
                 }
             ]
+        },
+        {
+            "name": "Clairvoyance",
+            "range": "Self",
+            "rank": "Default Rank",
+            "cost": "9 Hero Points",
+            "description": "You can see things at distant locations as if you were there. If the location is somehow shielded from you, you must make a Willpower roll against the shielding rank to use this Power. Clairvoyance works at any distance. You can even peer into other dimensions by making a Superhuman (6) Willpower roll. Although you normally observe locations, you can instead focus on a specific person or object. To do this, you must be familiar with the subject or have some meaningful item or fetish that connects you. This won’t tell you where that subject is located unless something you see gives that away."
+        },
+        {
+            "name": "Cloud Minds",
+            "range": "Ranged",
+            "rank": "Power Rank",
+            "cost": "1 Hero Point per rank",
+            "description": "You can cloud the minds of living beings, effectively making yourself invisible to everyone within Distant Range. Characters affected by this Power can’t see, hear, or otherwise detect you in any way unless they make a successful Willpower roll against your Cloud Minds. Characters cannot attempt to resist this Power unless you move within Close Range of them or take some action that would make your presence evident. You must spend 1 action per page to maintain this Power."
+        },
+        {
+            "name": "Communications",
+            "range": "Self",
+            "rank": "Default Rank",
+            "cost": "3 Hero Points",
+            "description": "You can detect, receive, store, and transmit communications and information across whatever networks exist in your game. Your range is worldwide or farther if it makes sense in the game world. Although you can interface with mundane communication systems, you don’t require physical infrastructure like cell towers or communication satellites. This Power works automatically, but you may have to make Technology rolls to do things like tap into secure networks or channels."
+        },
+        {
+            "name": "Constructs",
+            "range": "Ranged",
+            "rank": "Power Rank",
+            "cost": "3 Hero Points per rank",
+            "description": "You can create and manipulate constructs of solid force. You can create simple geometric shapes and physical objects like airfoils, balls, bars, cages, columns, crowbars, hammers, hands, nets, parachutes, ramps, ropes, walls, wedges, and so on. Your constructs have a Structure equal to your Power rank and can be as rigid or as flexible as you like. You can use them to grab, lift, or exert force with an effective Might equal to your Constructs rank. You have complete control over your constructs, and can alter their size, shape, and rigidity as desired. You can use this Power to attack targets in any number of ways such as by creating constructs in the air above them and letting them drop, flinging them at your targets like projectiles, and so on. You can also defend yourself against physical and energy attacks by creating momentary shields and walls. Your constructs last for the rest of the scene, until you dispel them, or until they’re destroyed. You can create and control multiple constructs at one time, but this lowers your effective rank by 1d per extra construct and you still suffer the usual multiple action penalties if you perform more than one action per page.",
+            "children": [
+                {
+                    "type": "PRO",
+                    "name": "Devices",
+                    "cost": "+2 per rank",
+                    "description": "You can create complex machines and intricate shapes that can imitate other Powers. This works like a broad version of Omni-Power."
+                }
+            ]
+        },
+        {
+            "name": "Danger Sense",
+            "range": "Self",
+            "rank": "Baseline Rank",
+            "cost": "1 Hero Point per rank",
+            "description": "You have the uncanny ability to detect immediate physical danger, even from sources you have no way of sensing, like a bomb under the floor. Use this Power instead of Perception when making rolls to detect danger and when determining your Edge. Additionally, you can make active defense rolls even when caught by surprise, using the lesser of your active defense rank or your Danger Sense rank."
+        },
+        {
+            "name": "Darkness",
+            "range": "Zone",
+            "rank": "Default Rank",
+            "cost": "6 Hero Points",
+            "description": "You can fill the space around you with darkness, dust, fog, smoke, or some other obscuring element through which only you and those unaffected by the obscuring element can see. Make up the specifics when you select this Power. For example, Super Senses (Night Vision or Thermal Vision) might let you see through darkness, while Super Senses (Thermal Vision or Ultra Vision) might let you see through fog or smoke. Targets affected by this Power suffer a −3d penalty to their attack and active defense rolls in combat unless they have a Power like Blind Fighting or Radar that compensates for this."
+        },
+        {
+            "name": "Dazzle",
+            "range": "Zone",
+            "rank": "Power Rank",
+            "cost": "1 Hero Point per rank",
+            "description": "You can emit a blinding flash that overwhelms the senses of all living beings within range, friend and foe alike, by making a Dazzle roll against their Willpower or one of their active defenses. Targets affected by this Power are stunned for one page (until after your next turn to act) and then blinded for whatever’s left of the Power’s duration. Stunned targets cannot move or perform actions. Blinded targets are affected as per Blind. Unlike most Powers, you can’t use this on a target already suffering from its effects, so you can’t stack the duration by attacking the same target multiple times.",
+            "children": [
+                {
+                    "type": "CON",
+                    "name": "Deafen",
+                    "cost": "-1",
+                    "description": "The Power leaves targets deafened rather than blinded after the stun effect wears off. Although preferable to being blinded, deafened characters are disoriented and suffer a −1d penalty on all challenge rolls for the rest of the Power’s duration. The GM will have to decide if characters with Powers like Blind Fighting or Radar can ignore this penalty."
+                }
+            ]
         }
     ]
 }

@@ -26,9 +26,6 @@ const style = {
 
 const HBModal: React.FC<HBModalType> = ({open, onClose, data}) => {
 
-
-    console.log('data', data)
-
     return(
         <Modal
         open={open}
