@@ -30,7 +30,6 @@ export const HBDataTable: React.FC<HBDataTableType> = ({tab, main, records}) => 
 
 
   const handleSearch = (values) => {
-    console.log(values)
     const newRecords = records?.filter((record) => record.name.toLowerCase().includes(values.name.toLowerCase()))
     setTableRecords(newRecords?.length ? newRecords : records)
   }
@@ -64,16 +63,13 @@ export const HBDataTable: React.FC<HBDataTableType> = ({tab, main, records}) => 
                 }) => {
 
                   const changeAutocomplete = (target) => {
-                    console.log('target: ', target)
                     var value =  target as HTMLElement
-                    console.log('value: ', value)
                       setValues({...values, name: value.textContent})
                                           if (!value.textContent) {
                       handleSubmit(values)
                     }
                   }
 
-                  console.log('values: ', values)
                       return (
                   <form onSubmit={handleSubmit}>
                     <Autocomplete

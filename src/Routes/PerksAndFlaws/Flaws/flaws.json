@@ -1,0 +1,197 @@
+{
+    "main": "Flaws are physical, mental, and social hindrances. As noted earlier, all Heroes can have up to 3 Flaws and must have at least one. The following section includes several Flaws common to the superhero genre, but feel free to make up your own (after discussing them with your GM). Flaws not only make your Hero more interesting; they also help you earn Resolve. Whenever you find yourself in a situation where one of your Flaws could become an issue, you can bring it into play by describing what happens. If this makes things more difficult for you or your fellow Heroes, you earn 1 point of Resolve. Your Flaws are always under your control and come into play only when you decide. No Flaw can generate more than 1 Resolve per scene. Although most Flaws work as described above, there are two exceptions. Some Flaws like Enemy and Relationship are plot hooks for GMs to use however they wish. Others like Blind and Vulnerability are persistent conditions that can’t be resisted and are always in effect. These Flaws are sometimes called Plot Hooks and Conditions, respectively, and they aren’t under your control. You don’t bring Plot Hooks or Conditions into play to earn Resolve. Instead, these Flaws grant you 1 extra point of Resolve at the start of every issue, and that’s it. They come into play whenever the GM decides or the situation demands, and you don’t gain extra Resolve when that happens.",
+    "records": [
+        {
+            "name": "Absentminded",
+            "description": "You tend to forget things. Usually, the things you forget aren’t all that important. But sometimes they are. Whenever that happens, you earn a point of Resolve."
+        },
+        {
+            "name": "Alter Ego",
+            "description": "You have a mundane alter ego. Your alter ego is built with 50 Hero Points and earns 1 Hero Point for every 5 you earn. Decide how your transformation works and whether it has any limitations when you select this Flaw. Any time this causes you trouble, you earn a point of Resolve."
+        },
+        {
+            "name": "Amnesia",
+            "description": "You have no memory of your past, although you may be haunted by fragments in dreams or visions. You don’t know who you are or where you come from. People who know this can take advantage of you, and your past will come back to haunt you every so often. This Flaw is both a Plot Hook and a Condition, so it grants you 1 extra point of Resolve at the start of every issue."
+        },
+        {
+            "name": "Aversion/Fear",
+            "description": "You have an aversion to or fear of something, and you will do whatever you can to avoid it. If you can’t, you may become hysterical, nauseated, violent, or worse. You may even pass out. However it works, you earn a point of Resolve whenever you succumb to this Flaw. Common fears include a fear of the dark, enclosed spaces, fire, heights, insects, mice, public speaking, snakes, spiders, and water."
+        },
+        {
+            "name": "Beast",
+            "description": "Your mental faculties are about on par with a bright animal or a game designer. You act mostly on instinct, and complex reasoning is beyond you. You earn a point of Resolve any time you can’t figure out how to do things like open a door or get the sheriff to understand that Billy fell down a well."
+        },
+          {
+            "name": "Blind/Deaf",
+            "description": "You are completely blind or deaf (pick one). If you are blind, you may have to select at least one Power that compensates enough to let you operate as a superhero (discuss this with your GM). This Flaw is a Condition that grants you 1 extra point of Resolve at the start of every issue."
+        },
+        {
+            "name": "Broke",
+            "description": "You are penniless, jobless, and possibly homeless. You can’t buy anything, so you have to beg, borrow, or steal what you need. Every time this causes you problems, you earn a point of Resolve."
+        },
+        {
+            "name": "Clumsy",
+            "description": "For whatever reason, you tend to break things. Your allies know to keep the fragile stuff away from you. Nevertheless, accidents happen. When they do, you earn a point of Resolve."
+        },
+        {
+            "name": "Code",
+            "description": "You follow a rigid code of conduct, one that requires more of you than just acting heroically. You earn a point of Resolve whenever following your code hurts you or your allies."
+        },
+        {
+            "name": "Color Blind",
+            "description": "You see in black and white, or you have trouble distinguishing certain colors (reds and greens being the usual culprits). You earn a point of Resolve whenever this causes you problems."
+        },
+        {
+            "name": "Compulsion/Severe Compulsion",
+            "description": "You have trouble resisting the urge to do something like drinking, gambling, chasing potential romantic partners, grandstanding, proving that your intellect is unmatched, or working on that stupid roleplaying game all night long. You earn a point of Resolve any time this works to your detriment. If the compulsion is literally impossible to resist, then you have a Severe Compulsion, which is a Condition that grants you 1 extra point of Resolve at the start of every issue. If you have a Severe Compulsion, you must describe the specific environment, situation, etc. that triggers the compulsion."
+        },
+        {
+            "name": "Creepy",
+            "description": "You give off a vibe that unnerves sensitive observers like young children, psychics, and animals. Animals usually shy away from you, unless they’re predators, in which case they attack you first. You earn a point of Resolve whenever your unsettling aura causes you trouble."
+        },
+        {
+            "name": "Curse",
+            "description": "You suffer from some supernatural burden. Make up the details and get your GM’s approval. You earn a point of Resolve whenever your curse causes problems for you or your allies."
+        },
+        {
+            "name": "Decorum",
+            "description": "You value propriety and feel compelled to follow social mores, even when others don’t. Manners maketh man, and all that. Whenever this makes life difficult, you earn a point of Resolve."
+        },
+        {
+            "name": "Disabled",
+            "description": "You are disabled, possibly missing a limb or two, possibly wheelchair-bound, possibly something else. Describe the specifics when you select this Flaw. You may have to select at least one Power that compensates enough to let you operate as a superhero (discuss this with your GM). This Flaw is a Condition that grants you 1 extra point of Resolve at the start of every issue."
+        },
+          {
+            "name": "Emotionless",
+            "description": "You lack human empathy. Unable to understand emotions, you are often coldly logical in your interactions with others. As a result, people tend to react poorly to even your most carefully reasoned attempts at meaningful exchange. You earn a point of Resolve any time this causes you problems."
+        },
+        {
+            "name": "Enemy",
+            "description": "You have an enemy that wants you ruined, imprisoned, or dead. Make up whatever details you want and let your GM make up the rest. Your enemy doesn’t necessarily have to be a single individual or a super-powered nemesis. It could instead be a group, an organization, or even an entire nation. This Flaw is a Plot Hook that grants you 1 extra point of Resolve at the start of every issue."
+        },
+        {
+            "name": "Finite Power",
+            "description": "One or more of your Powers requires ammo, energy, or some other depletable resource. You earn a point of Resolve whenever you run out of this resource at the wrong time."
+        },
+        {
+            "name": "Flashbacks/Guilt",
+            "description": "You are haunted by some tragic event in your past. Whenever something triggers you, you suffer flashbacks or become overwhelmed with guilt, sorrow, etc. Flashbacks take you completely out of the action and render you helpless for 1 page. Being overwhelmed with guilt causes you to suffer a −2d penalty to all challenge rolls for 3 pages. Either way, you also earn a point of Resolve."
+        },
+        {
+            "name": "Frenzy",
+            "description": "You tend to rush headlong into combat and often go dangerously berserk. You earn a point of Resolve whenever this gets the better of you and makes you do something stupid like leap blindly into a fight, refuse to retreat with your allies, or kill someone in the heat of battle."
+        },
+        {
+            "name": "Frightening",
+            "description": "You look downright scary. Most people flee in terror when they see you, and those who don’t are often on edge in your presence. You earn a point of Resolve whenever this causes you problems."
+        },
+        {
+            "name": "Heavy/Very Heavy",
+            "description": "You weigh a good bit more than the average person. If you have a weight rank of 5d or 6d, you are Heavy. You can’t ride most mounts, and you are probably a poor swimmer at best. You earn a point of Resolve whenever your weight becomes an issue. If you have a weight rank of 7d or greater, you are Very Heavy, heavy enough to damage floors and crash through ceilings. At this level, you have a Condition that grants you 1 extra point of Resolve at the start of every issue."
+        },
+        {
+            "name": "Hidden Agenda",
+            "description": "You sometimes have directives or goals you can’t/won’t discuss with your allies. Whenever your hidden agenda gets in the way or makes things difficult for you or your allies, you earn a point of Resolve."
+        },
+        {
+            "name": "Illiterate",
+            "description": "You cannot read or write, at least not any language known on present-day Earth. You earn a point of Resolve whenever this hampers you in a significant way."
+        },
+        {
+            "name": "Impaired Sense",
+            "description": "Your hearing, smell, or vision is lousy — pick one or more, whatever you prefer. You earn a point of Resolve whenever you choose to automatically fail a Perception roll as a result of your impairment and your failure has some adverse consequence for you or your allies."
+        },
+        {
+            "name": "Insane",
+            "description": "You suffer from a persistent behavioral issue, delusion, or disconnect with reality or you endure occasional psychotic breaks in the form of hallucinations, bouts of paranoia, etc. Whenever your illness causes you problems, you earn a point of Resolve. If you take medication that keeps you in check, consider taking Requirement instead."
+        },
+        {
+            "name": "Light Sensitive",
+            "description": "You are sensitive to bright light. You might be an albino, but that doesn’t have to be the case. Simple daylight can be blinding, and prolonged exposure can make you dizzy or incapacitate you. You earn a point of Resolve any time you suffer an adverse effect because of this condition."
+        },
+        {
+            "name": "Mute",
+            "description": "You can’t speak, won’t speak, or speak a language nobody else understands (although maybe another Hero can translate for you). Any time this creates challenges for you or your allies, you earn 1 Resolve. This Flaw doesn’t prevent you from speaking to your fellow players or the GM; it only prevents your Hero from speaking to other characters in the game world."
+        },
+        {
+            "name": "Night Blind",
+            "description": "You have a hard time seeing in dim lighting, which is almost like darkness to you. You earn a point of Resolve any time you suffer an adverse effect because of this condition."
+        },
+        {
+            "name": "Nocturnal",
+            "description": "You are wired to sleep during the day, or you have a form of narcolepsy. Either way, you tend to be tired and sluggish during the day, and you sometimes doze off when things are calm — shaving cream beards are all too familiar. Whenever this becomes an issue, you earn a point of Resolve."
+        },
+        {
+            "name": "Notoriety",
+            "description": "Whether deserved or not, you have a bad reputation. Maybe you’ve become the target of a newspaper editor who hates “costumed freaks.” Perhaps you used to be a supervillain and the public hasn’t forgiven or forgotten. Or you might be the unfortunate subject of blind prejudice. Whatever the case, most people react unfavorably to you. Some may even flee or call the police when you appear. When things like this happen, you sigh and earn a point of Resolve."
+        },
+        {
+            "name": "Obligation",
+            "description": "You have a duty or responsibility that requires you to do certain things and prevents you from doing others. Being a student and having a full-time job are common Obligations on present-day Earth. This Flaw is a Plot Hook that grants you 1 extra point of Resolve at the start of every issue."
+        },
+        {
+            "name": "Outsider",
+            "description": "You come from somewhere else, often another time, world, or dimension. Your home is quite different from present-day Earth, so there are bound to be faux pas and missteps. You earn a point of Resolve any time you have trouble dealing with novel objects or situations."
+        },
+        {
+            "name": "Power Limits",
+            "description": "One or more of your Powers has certain limitations. Describe the specifics. In effect, this works like a Con that you control, but instead of making the Power less expensive, this Flaw lets you earn 1 point of Resolve whenever this works to your detriment or to that of your allies."
+        },
+        {
+            "name": "Quirk",
+            "description": "You have an annoying, obnoxious, or unfortunate personality trait that often gets the better of you at the worst of times. You earn a point of Resolve whenever that happens."
+        },
+         {
+            "name": "Reaction/Severe Reaction",
+            "description": "You suffer an adverse reaction at certain times, in certain situations, or when you touch or come within a certain distance of a specific person, place, or thing. Make up the details when you select this Flaw. However it works, you earn a point of Resolve whenever you suffer a reaction, or when you do something selfish or unheroic to avoid whatever causes your reaction. If your reaction is especially severe and impossible to resist, like how sunlight burns vampires, then you have a Severe Reaction, which is a Condition that grants you 1 extra point of Resolve at the start of every issue."
+        },
+        {
+            "name": "Relationship",
+            "description": "You have important relationships in your life, often your friends and family (and maybe even pets). These people and/or animals require your attention and occasionally need your help, sometimes to rescue them from the clutches of some Villain, and sometimes for other reasons. This common Flaw is a Plot Hook that grants you 1 extra point of Resolve at the start of every issue."
+        },
+        {
+            "name": "Repair",
+            "description": "You do not heal naturally. Whenever you suffer damage, you must be repaired to recover lost Health, whether that happens magically, mechanically, or in some other way. This Flaw is a Condition that grants you 1 extra point of Resolve at the start of every issue."
+        },
+        {
+            "name": "Requirement/Severe Requirement",
+            "description": "You must satisfy a requirement every so often or you will suffer an adverse effect. Maybe you have to perform a nightly ritual to maintain your powers, or you need regular doses of medicine to stay alive, or perhaps you are addicted to alcohol, drugs, or gambling. Make up the details when you select this Flaw. You earn a point of Resolve whenever you do something selfish or unheroic to satisfy the requirement, or when you suffer an adverse effect from not satisfying the requirement. If the requirement is desperate and immediate, like breathing water instead of air, then you have a Severe Requirement, which is a Condition that grants you 1 extra point of Resolve at the start of every issue."
+        },
+        {
+            "name": "Restriction",
+            "description": "You have fewer rights than the average person, often because you are a minor or an undocumented alien (maybe literally). This also applies if you are a second-class citizen, were deemed legally incompetent, etc. Whenever your restriction makes things difficult, you earn a point of Resolve."
+        },
+        {
+            "name": "Secret",
+            "description": "You have a secret that must be kept at all costs. You earn a point of Resolve whenever your efforts to protect your secret work to your detriment or to the detriment of your allies."
+        },
+        {
+            "name": "Secret Identity",
+            "description": "This is the iconic version of the Secret Flaw in most comic book superhero settings."
+        },
+        {
+            "name": "Slow",
+            "description": "You move slowly. You earn a point of Resolve whenever you choose to automatically fail an Agility roll involving speed or movement and the failure has negative consequences for you or your allies. This Flaw is almost meaningless if you have a Travel Power that compensates for it."
+        },
+        {
+            "name": "Unlucky/Jinx",
+            "description": "If it weren’t for bad luck, you wouldn’t have any luck at all. Unlucky means the GM can inflict a misfortune on you once per issue without needing to spend Adversity. Jinx works the same way, but the misfortune affects a fellow Hero or ally in your vicinity instead of you. This Flaw is a Condition that grants you 1 extra point of Resolve at the start of every issue."
+        },
+        {
+            "name": "Unusual Looks",
+            "description": "Your appearance is off-putting. You might look incredibly ugly, unnaturally beautiful, or strange and uncanny in some other way. Whatever the case, you earn a point of Resolve whenever your appearance becomes an issue. This Flaw is redundant if you have Frightening."
+        },
+        {
+            "name": "Unusual Shape",
+            "description": "You are not shaped like an ordinary human being. Describe how you are shaped and how this affects you when you select this Flaw. Whenever this causes you problems, you earn a point of Resolve."
+        },
+        {
+            "name": "Vulnerability",
+            "description": "You are vulnerable to one type of attack, effect, or weapon. Describe it in detail when you select this Flaw. Your active and passive defense ranks are halved against this attack, effect, or weapon. This Flaw is a Condition that grants you 1 extra point of Resolve at the start of every issue."
+        },
+        {
+            "name": "Wanted",
+            "description": "On a steel horse you ride. You are being actively hunted by authorities of some kind, so your hand is often forced in order to avoid being discovered or to escape in those instances when you are. This Flaw is a Plot Hook that grants you 1 extra point of Resolve at the start of every issue."
+        }
+    ]
+}

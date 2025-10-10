@@ -13,6 +13,7 @@ import Footer from './Components/Footer.tsx';
 import Powers from './Routes/Powers/Powers.tsx';
 import Equipment from './Routes/Equipment/Equipment.tsx';
 import PointCalculator from './Routes/PointCalculator/PointCalculator.tsx';
+import PerksAndFlaws from './Routes/PerksAndFlaws/PerksAndFlaws.tsx';
 
 // Define the functional component using React.FC type for type safety
 const App: React.FC = () => {
@@ -32,6 +33,7 @@ const App: React.FC = () => {
             <Route path="/equipment" element={<Equipment />} />
             <Route path="/powers" element={<Powers />} />
             <Route path="/pointCalculator" element={<PointCalculator />} />
+            <Route path="/perksAndFlaws" element={<PerksAndFlaws />} />
           </Routes>
           <Footer />
         </MantineProvider>

@@ -1,0 +1,64 @@
+{
+    "main": "Perks are advantages that come from the world around you. Like many of the Powers, Perks are generic and need to be fleshed out when selected. As social characteristics, Perks are more narrative than mechanical in nature. Perks don’t have ranks or Sources and don’t take Pros or Cons. Feel free to make up your own Perks using the ones provided below as a guide.",
+    "records": [
+        {
+            "name": "Authority",
+            "cost": "3 Hero Points",
+            "description": "You have more authority, rights, or social power than the average person. This could include things like access to secret government installations, diplomatic immunity, top secret security clearance, authority to arrest and detain people, or just being a member of the nobility or ruling class."
+        },
+        {
+            "name": "Contacts",
+            "cost": "1 Hero Point per type of contact",
+            "description": "You know people who can provide you with information and the occasional favor. Common examples include academic, business, criminal, legal, media, military, police, political, and scientific contacts."
+        },
+        {
+            "name": "Fame",
+            "cost": "3 Hero Points",
+            "description": "You are famous. People who recognize you generally react favorably, and some will fall all over themselves trying to get your attention, an autograph, or a selfie with you. If you have a secret identity, you must decide whether this Perk applies to your civilian identity or your heroic alter ego."
+        },
+        {
+            "name": "Fourth Wall",
+            "cost": "6 Hero Points",
+            "description": "You believe you are a character in a comic book (and you might be right). You often break the fourth wall to interact directly with the audience. In game terms, any time you break the fourth wall and crack a joke that gets everyone at the table laughing, you earn 1 point of Resolve. But you can only do this once per scene. This Perk is best reserved for comedic or lighthearted games."
+        },
+        {
+            "name": "Infamy",
+            "cost": "3 Hero Points",
+            "description": "You are infamous among the criminal underworld, known as a dangerous customer and someone to be feared. Ordinary criminals are afraid of you and may fall all over themselves trying to appease you, especially when you apply the right kind of pressure. Supervillains are usually less impressed."
+        },
+        {
+            "name": "Patron",
+            "cost": "3 Hero Points",
+            "description": "You are connected to a person, group, or organization that provides you with information, equipment, funding, and support for your heroic activities. Common patrons include government organizations, rebel groups, and wealthy humanitarians who just love adopting teenagers with superpowers."
+        },
+        {
+            "name": "Pet/Sidekick",
+            "cost": "1 Hero Point per 10 Hero Points",
+            "description": "You have a pet or a sidekick. Every Hero Point you spend on this Perk gives you 10 Hero Points to create this character. Your companion can’t have more than half your Hero Points, and they must abide by the game’s Trait Cap. Your companion earns 1 Hero Point for every 2 that you earn. Pets and sidekicks are considered Heroes. They lack Resolve, but you can spend your Resolve on their behalf. If your companion has higher Trait ranks than you, use their Traits when determining your Resolve (see Chapter 5). If your companion has Flaws, you earn Resolve as if that character were a Hero. GMs who don’t want players running two (or more) characters should feel free to limit or prohibit this Perk."
+        },
+        {
+            "name": "Reputation",
+            "cost": "3 Hero Points",
+            "description": "You have a reputation that works to your benefit. Unlike fame, which makes people like you, this Perk means you have authority, credibility, or respect in a particular arena. For example, in your civilian life, you might be an attorney known to be an absolute terror in the courtroom. If you have a secret identity, you must decide whether this Perk applies to your civilian identity or your heroic alter ego."
+        },
+        {
+            "name": "Resources",
+            "cost": "1 Hero Point",
+            "description": "You have access to an impressive supply of equipment of one sort or another: military weapons, ninja gear, tricked-out vehicles, etc. This often means you know someone who gets you these things or you stumbled across a hidden cache. It does not mean you are rich. For that, see Wealth."
+        },
+        {
+            "name": "Unique Vehicle",
+            "cost": "1 Hero Point per 25 Vehicle Points"
+        },
+        {
+            "name": "Wealth",
+            "cost": "3 Hero Points",
+            "description": "You are rich. You aren’t just comfortably well-off; you are truly wealthy. You can buy almost anything you want, legal or otherwise. You probably own several homes, have multiple vehicles, and employ at least a few domestic servants. If you happen to be a tech-based Hero, you can easily fund your extracurricular activities out of your own pocket."
+        },
+        {
+            "name": "Great Wealth",
+            "cost": "6 Hero Points",
+            "description": "You are one of the wealthiest people in the world. At this level, money is almost meaningless. Not only can you buy whatever you want, but you can spend 1 point of Resolve once per issue to make a truly absurd purchase like buying an island or a major corporation. While many Heroes are wealthy, GMs may want to restrict Great Wealth because characters with this much money can spend their way around most problems without batting an eye."
+        }
+    ]
+}

@@ -299,6 +299,28 @@
                     "description": "The Power leaves targets deafened rather than blinded after the stun effect wears off. Although preferable to being blinded, deafened characters are disoriented and suffer a −1d penalty on all challenge rolls for the rest of the Power’s duration. The GM will have to decide if characters with Powers like Blind Fighting or Radar can ignore this penalty."
                 }
             ]
+        },
+        {
+            "name": "Deflection",
+            "range": "Self",
+            "rank": "Power Rank",
+            "cost": "1 Hero Point per rank",
+            "description": "You can deflect and redirect ranged attacks (but not area attacks). Decide whether you can deflect physical attacks or energy attacks when you select this Power. You can use your Deflection rank as an active defense against that type of attack. Whenever such an attack fails to harm you, you can spend a free action to immediately redirect it using the lesser of the attack’s rank or your Deflection rank to make your attack roll. You can deflect any number of attacks without penalty, but you suffer a cumulative −2d penalty on your rolls to redirect these attacks if you try to redirect two or more on the same page. If you wish, you can double the cost of this Power and spend 2 Hero Points per rank to be able to deflect both physical attacks and energy attacks.",
+            "children": [
+                {
+                    "type": "CON",
+                    "name": "Only X",
+                    "cost": "-4",
+                    "description": "You can only deflect one specific type of object or energy (pick one)."
+                }
+            ]
+        },
+        {
+            "name": "Density",
+            "range": "Self",
+            "rank": "Power Rank",
+            "cost": "1 Hero Point per rank",
+            "description": "You can increase your density. While dense, you can substitute your current Density rank for your Might and Toughness, and you gain Armor at that rank as well. If you already have any of these Traits at an equal or greater rank, use their ranks +1d instead. You also become heavier when using this Power: at rank 3d or higher, your weight rank equals your current Density rank. Most ordinary floors will have trouble supporting your weight much past 6d Density."
         }
     ]
 }

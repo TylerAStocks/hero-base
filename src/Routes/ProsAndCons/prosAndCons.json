@@ -1,0 +1,34 @@
+{
+    "records": [
+        {
+            "type": "PRO",
+            "name": "Affect Inanimate",
+            "cost": "+1 Hero Point",
+            "description": "This Pro applies to Powers that affect only living beings. It means the Power can also affect one type of inanimate being; in other words, characters with the Inanimate Power from one Source (pick one). You can apply this Pro multiple times to affect different types of inanimate beings."
+        },
+        {
+            "type": "PRO",
+            "name": "Area of Effect",
+            "cost": "+1 to +4 Hero Points",
+            "description": "These Pros apply to Powers that only affect individual targets, turning them into Powers that target an area of effect. When targeting an area instead of an individual character in combat, you make a single attack roll and everyone in the area (whether friend or foe) makes their own defense roll. Area attacks are hard to evade, so active defense ranks are halved against them unless the defender foregoes their next turn to act leaping away or behind cover. The Pros are as follows. Area/Burst: These Pros apply to Ranged Powers. Area gives you the option of targeting an area or an individual character, while Burst means the power always targets an area. Either way, the area of effect can be anywhere from 10 to 50 feet in diameter. Area lets you vary the size of the area of effect each time you use the Power, but Burst requires you to specify the size of the area when you create the Power. Area costs +2 Hero Points and Burst costs +1 Hero Point. Zone/Nova: These Pros apply to Ranged Powers and Touch Powers. Zone gives you the option of targeting the area within 5 to 25 feet of you or an individual character. Nova means the power always targets the area within 5 to 25 feet of you. Zone lets you vary the size of the area of effect each time you use the Power, but Nova requires you to specify the size of the area when you create the Power. When applied to Ranged Powers, Zone costs +2 Hero Points and Nova costs +1 Hero Point. When applied to Touch Powers, these Pros cost twice as much, or +4 Hero Points and +2 Hero Points, respectively."
+        },
+        {
+            "type": "PRO",
+            "name": "Armor Piercing",
+            "cost": "+2 Hero Points",
+            "description": "This Pro applies to Powers that inflict physical or energy damage. It means the Power penetrates body armor with ease. Characters wearing mundane armor have their passive defenses halved against the Power. Active defenses are unaffected by this Pro. No Power can have this Pro and the Weak Con."
+        },
+        {
+            "type": "CON",
+            "name": "Build-Up",
+            "cost": "-2 Hero Points",
+            "description": "The Power must build up over 2 pages before you can use it. You can’t use the Power on the first or second page of the action, but you can use it on the third page and every page after that."
+        },
+        {
+            "type": "CON",
+            "name": "Burnout",
+            "cost": "-4 Hero Points",
+            "description": "The Power is always at risk of burning out. Roll two dice every time you try to use it. A roll of 6 or less means the Power burns out and can’t be used for the rest of the scene."
+        }
+    ]
+}
