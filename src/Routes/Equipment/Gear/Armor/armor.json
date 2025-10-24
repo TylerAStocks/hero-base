@@ -1,0 +1,50 @@
+{
+    "main": "Armor grants you the Armor Power at a rank equal to your Toughness plus the Armor Bonus shown on the Armor table, depending on the armor worn. If you already have Armor, you can use it in place of Toughness when determining your effective Armor rank while wearing artificial armor. Advanced suits of powered armor may include built-in weaponry and equipment like communications, life support, sensor systems, and servos that enhance your Abilities. Features like these should be considered Powers.",
+    "records": [
+        {
+            "name": "Ancient, Leather",
+            "bonus": "+0d",
+            "features": "-"
+        },
+        {
+            "name": "Ancient, Mail",
+            "bonus": "+1d",
+            "features": "Bulky"
+        },
+        {
+            "name": "Ancient, Plate",
+            "bonus": "+2d",
+            "features": "Rigid"
+        },
+        {
+            "name": "Modern, Armored Uniform",
+            "bonus": "+1d",
+            "features": "-"
+        },
+        {
+            "name": "Modern, Tactical Gear",
+            "bonus": "+2d",
+            "features": "Bulky"
+        },
+        {
+            "name": "Modern, Military/Riot Gear",
+            "bonus": "+3d",
+            "features": "Rigid"
+        },
+        {
+            "name": "Advanced, Light",
+            "bonus": "+2d",
+            "features": "-"
+        },
+        {
+            "name": "Advanced, Medium",
+            "bonus": "+3d",
+            "features": "Bulky"
+        },
+        {
+            "name": "Advanced, Heavy",
+            "bonus": "+4d",
+            "features": "Rigid"
+        }
+    ]
+}

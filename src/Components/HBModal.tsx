@@ -2,6 +2,11 @@ import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
+import growthChart from './growth.png';
+import leapingChart from './leaping-chart.png';
+import shrinkingChart from './shrinking.png';
+import { useEffect, useState } from 'react';
+
 
 interface HBModalType {
     open: boolean;
@@ -15,7 +20,7 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: 400,
-  bgcolor: 'background.paper',
+  bgcolor: '#c9decf',
   border: '2px solid #000',
   boxShadow: 24,
   p: 4,
@@ -26,6 +31,33 @@ const style = {
 
 const HBModal: React.FC<HBModalType> = ({open, onClose, data}) => {
 
+
+    const [img, setImg] = useState(data?.image)
+
+    console.log('modal data: ', data)
+
+
+    useEffect(() => {
+
+        switch(data?.image){
+            case 'growth':
+                setImg(growthChart);
+                return;
+            case 'leaping':
+                setImg(leapingChart)
+                return;
+            case 'shrinking':
+                setImg(shrinkingChart);
+                return;
+            default:
+                setImg(null)
+                return;
+            
+        }
+    }, [data?.image])
+
+
+
     return(
         <Modal
         open={open}
@@ -34,7 +66,7 @@ const HBModal: React.FC<HBModalType> = ({open, onClose, data}) => {
         aria-describedby="modal-modal-description"
         >
         <Box sx={style}>
-            {data?.map((entry: any) => {
+            {data?.children?.map((entry: any) => {
                 return (
                     <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', margin: '16px'}}>
                         <div style={{display: 'flex', flexDirection: 'row'}}>
@@ -54,6 +86,11 @@ const HBModal: React.FC<HBModalType> = ({open, onClose, data}) => {
                     </div>
                 )
             })}
+
+
+            {data?.image && (
+                <img src={img} alt={data?.image}/>
+            )}
         </Box>
         </Modal>
     )

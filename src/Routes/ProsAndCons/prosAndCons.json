@@ -29,6 +29,96 @@
             "name": "Burnout",
             "cost": "-4 Hero Points",
             "description": "The Power is always at risk of burning out. Roll two dice every time you try to use it. A roll of 6 or less means the Power burns out and can’t be used for the rest of the scene."
+        },
+        {
+            "type": "PRO",
+            "name": "Carrier Attack",
+            "cost": "+6 Hero Points",
+            "description": "This Pro applies to attack Powers. It means the attack Power carries another Power on its heels, called a carrier attack. The best real-world example of this is a poisoned weapon. Whenever the Power inflicts at least 1 point of damage or 1 page worth of a special effect, you can immediately make a second attack roll against the same target using the carrier attack. Targets can only use passive defenses against a carrier attack. Carrier attacks are expensive: you must buy this Pro and you must by the Power that will serve as the carrier attack. Carrier attacks can’t be used independently. If you want to use a carrier attack by itself, you must buy a second version of the carrier attack Power."
+        },
+        {
+            "type": "CON",
+            "name": "Charges",
+            "cost": "-1 to -4 Hero Points",
+            "description": "The Power can only be used a few times per scene. This is a −1 Con if you can use the Power 6 times per scene, a −2 Con if you can use it 3 times per scene, or a −4 Con if you can use it once per scene. The Power is assumed to get recharged, reloaded, or otherwise readied between scenes. Powers with sustained effects like Invisibility or Phasing expend 1 use per page."
+        },
+        {
+            "type": "PRO",
+            "name": "Close",
+            "cost": "+2 Hero Points",
+            "description": "This option applies to Touch Powers and Ranged Powers. It means the Power can target subjects within Close Range, even if they are not adjacent to you. This unique option is a +2 Pro when applied to Touch Powers, but a −2 Con when applied to Ranged Powers."
+        },
+        {
+            "type": "CON",
+            "name": "Close",
+            "cost": "-2 Hero Points",
+            "description": "This option applies to Touch Powers and Ranged Powers. It means the Power can target subjects within Close Range, even if they are not adjacent to you. This unique option is a +2 Pro when applied to Touch Powers, but a −2 Con when applied to Ranged Powers."
+        },
+        {
+            "type": "CON",
+            "name": "COncentration",
+            "cost": "-4 Hero Points",
+            "description": "The Power requires your complete attention. Once you use the Power, you can’t perform other actions, move, or defend yourself until your next turn to act. If the Power’s effects last or can be maintained for more than one page, you must keep concentrating or the Power will instantly expire."
+        },
+        {
+            "type": "CON",
+            "name": "Conditional",
+            "cost": "-1 to -4 Hero Points",
+            "description": "The Power only works under certain conditions, in certain situations, against certain targets, after meeting certain requirements, etc. Considering how difficult it is to satisfy the conditions, this is a −1 Con if the Power often works, a −2 Con if it occasionally works, or a −4 Con if it rarely works."
+        },
+        {
+            "type": "CON",
+            "name": "Constant",
+            "cost": "-2 Hero Points",
+            "description": "This Con applies to Powers that can be activated and deactivated at will. It means the Power is always active and cannot be switched off. This Con is only meaningful when this poses a problem. For example, Aura, Blast, Density, Growth, Invisibility, and Shrinking are all good candidates for this Con."
+        },
+        {
+            "type": "PRO",
+            "name": "Contagious",
+            "cost": "+4 Hero Points",
+            "description": "The Power affects not only your original target, but also anyone who comes into physical contact with them. As long as the original target is affected by the Power, you can make an immediate attack roll against anyone who touches them, and these new potential targets can only use passive defenses to resist the Power. New targets affected by the Power also become contagious. This effect always expires at the end of the current scene, at least for Heroes. NPCs have no such restrictions."
+        },
+        {
+            "type": "CON",
+            "name": "Costly",
+            "cost": "-4 Hero Points",
+            "description": "You must spend 1 Resolve every time you use the Power. This can represent a Power that takes a great deal out of you, one you have yet to master, or one you are reluctant to use."
+        },
+        {
+            "type": "CON",
+            "name": "Degrades",
+            "cost": "-2 Hero Points",
+            "description": "This Con applies to Power Rank Powers and Baseline Rank Powers. It means the Power gets weaker the more you use it. Every use of the Power reduces its effective rank by 1d for the rest of the scene. When this Con applies to ongoing Powers like Aura, every page or fraction of a page is considered one use. All lost ranks are recovered between scenes."
+        },
+        {
+            "type": "CON",
+            "name": "Delay",
+            "cost": "-4 Hero Points",
+            "description": "The Power doesn’t take effect immediately. Although the length of the delay is up to you (specify when you create the Power), it must be too long for the Power to be of use in combat."
+        },
+        {
+            "type": "CON",
+            "name": "Exclusive",
+            "cost": "-1 Hero Point",
+            "description": "You can’t use or maintain the Power while you are using or maintaining another Power with this Con, typically because these Powers come from or rely on the same device, energy, source, etc. You must apply this Con to at least 2 of your Powers (and you get the cost reduction for each)."
+        },
+        {
+            "type": "PRO",
+            "name": "Expansive",
+            "cost": "+6 to +18 Hero Points",
+            "description": "This Pro applies to Zone Powers, letting you increase their area of effect dramatically. You can spend 1 Resolve to expand the Power’s area of effect for the rest of the scene. This costs 6 Hero Points if you can affect everything within Close Range (about 50 feet), 12 Hero Points if you can affect everything within Distant Range (about 500 feet), or 18 Hero Points if you can affect everything within Extreme Range (about 5,000 feet). Although not available to Heroes, NPCs can have a Geographic version of this Pro that can affect as large an area as the GM deems appropriate. You cannot apply this Pro to Powers that affect targets directly like Dazzle or Shockwave, but indirect Powers like Darkness, Illusions, Irritant, Light, Nullify, Slick, and Time Stop are perfectly valid."
+        },
+        {
+            "type": "PRO",
+            "name": "Fuse",
+            "cost": "+2 Hero Points",
+            "description": "You can set the Power to take effect after a delay. This delay can be as short or as long as you wish, but not longer than a number of hours equal to your Willpower. You decide how long you want the delay to last each time you use the Power. As long as you are within Extreme Range of where you set the Power to go off or take effect, you can deactivate it at will."        
+        },
+        {
+            "type": "CON",
+            "name": "Harmful",
+            "cost": "-1",
+            "description": "You suffer damage every time you use the Power. This is a −1 Con if the Power inflicts 1 point of damage per use, a −2 Con if it inflicts 1–3 points of damage per use (roll one die and halve the result), or a −4 Con if it inflicts 1–6 points of damage per use. You are always free to spend 1 Resolve to avoid suffering this damage. This damage is considered subdual damage, but it ignores the Regeneration Power and can’t be healed with ordinary medical treatment."
         }
     ]
 }

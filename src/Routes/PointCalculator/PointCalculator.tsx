@@ -10,6 +10,8 @@ import ListItemText from "@mui/material/ListItemText";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import Checkbox from "@mui/material/Checkbox";
 import prosAndCons from '../ProsAndCons/prosAndCons.json'
+import HBNumberInput from "../../Components/HBNumberInput.tsx";
+import HoverInfo from "../../Components/HoverInfo.tsx";
 
 
 const selectStyle = {
@@ -18,9 +20,6 @@ const selectStyle = {
                         textWrap: 'wrap'
                     }
 
-const numStyle = {
-    marginLeft: '10px', maxWidth: '60px'
-}
 
 
 const PointCalculator: React.FC = () => {
@@ -69,13 +68,16 @@ const PointCalculator: React.FC = () => {
 
                 const handleChangePower = (e) => {
                     const value = e.target as HTMLElement
-                    const selection = powers.records.find((power) => power.name === value.innerHTML)
+                    console.log(value)
+                    const selection = powers.records.find((power) => power.name.includes(value.innerHTML.split(' (')[0]))
                     const getCost = (val: string | undefined) => {
-                        if (val.includes('per 2 ranks')) {
+                        console.log('val: ', val)
+                        
+                        if (val?.includes('per 2 ranks')) {
                             return 0.5
                         }
 
-                        return parseInt(val)
+                        return parseInt(val || '0')
                     }
 
                     if (selection?.children) {
@@ -83,6 +85,8 @@ const PointCalculator: React.FC = () => {
                     } else {
                         setProsAndConsList([...prosAndCons.records])
                     }
+
+                    console.log('selection: ', selection)
 
                     setValues({...values, power: selection?.name, ranks: 1, cost: getCost(selection?.cost)})
                     setIsPowerRank(selection?.rank !== 'Default Rank')
@@ -92,7 +96,7 @@ const PointCalculator: React.FC = () => {
                     const arr = value.target.value
                     let total = 0;
                     let fields = ['', ''];
-                    let finalCost = parseInt(powers.records.find((power) => power.name === values.power)?.cost)
+                    let finalCost = parseInt(powers.records.find((power) => power.name === values.power)?.cost || '0')
                     const proCons = arr.map((item) => {
                         let proCon;
                         if (value.target.name.includes('pros')) {
@@ -134,7 +138,7 @@ const PointCalculator: React.FC = () => {
                     }}
                     freeSolo={true}
                     onChange={handleChangePower}
-                    getOptionLabel={(option) => option.name}
+                    getOptionLabel={(option) => `${option.name} (${option.cost})`}
                     options={powers.records}
                     sx={{ width: 300 }}
                     renderInput={(params) => <TextField name="name" {...params} label="Select Power" style={{borderRadius: '8px', background: 'white'}} />} />
@@ -143,16 +147,10 @@ const PointCalculator: React.FC = () => {
                         flexDirection: 'column'
                     }}>
 
-                    <div className='num-input'>
-                        <label>Ranks</label>
-                        <input disabled={!isPowerRank} name="ranks"value={values.ranks} style={numStyle} onChange={handleChange} type="number"/>
-                    </div>
+                    <HBNumberInput name="ranks" label="Ranks" disabled={!isPowerRank} value={values.ranks} onChange={handleChange}/>
 
 
-                    <div className="num-input">
-                    <label>Cost</label>
-                    <input name="cost"value={values.cost} style={numStyle} onChange={handleChange} type="number"/>
-                    </div>
+                    <HBNumberInput name="cost" label="Cost" value={values.cost} onChange={handleChange}/>
 
                     <div className="num-input">
                     <label>Pros</label>
@@ -174,7 +172,7 @@ const PointCalculator: React.FC = () => {
                                     </MenuItem>
                                 ))}
                                 </Select>
-                        <input name="pros"value={values.pros} style={numStyle} onChange={handleChange} type="number"/>
+                        <HBNumberInput name="pros" label="Pros cost" value={values.pros} onChange={handleChange}/>
                     </div>
 
                     <div className="num-input">
@@ -192,12 +190,14 @@ const PointCalculator: React.FC = () => {
                             >
                             {consList.map((con) => (
                                 <MenuItem key={con.name} value={con.name}>
-                                <Checkbox checked={values.consList?.includes(con.name)} />
-                                <ListItemText primary={`${con.name} (${con.cost})`} />
+                                    <Checkbox checked={values.consList?.includes(con.name)} />
+                                    <HoverInfo info={con.description}>
+                                        <ListItemText primary={`${con.name} (${con.cost})`} />
+                                    </HoverInfo>
                                 </MenuItem>
                             ))}
                         </Select>
-                    <input name="cons" value={values.cons} style={numStyle} onChange={handleChange} type="number"/>
+                    <HBNumberInput name="cons" label="Cons cost" value={values.cons} onChange={handleChange}/>
                     </div>
                     </div>
 
