@@ -11,7 +11,6 @@ import OutlinedInput from "@mui/material/OutlinedInput";
 import Checkbox from "@mui/material/Checkbox";
 import prosAndCons from '../ProsAndCons/prosAndCons.json'
 import HBNumberInput from "../../Components/HBNumberInput.tsx";
-import HoverInfo from "../../Components/HoverInfo.tsx";
 
 
 const selectStyle = {
@@ -191,9 +190,7 @@ const PointCalculator: React.FC = () => {
                             {consList.map((con) => (
                                 <MenuItem key={con.name} value={con.name}>
                                     <Checkbox checked={values.consList?.includes(con.name)} />
-                                    <HoverInfo info={con.description}>
-                                        <ListItemText primary={`${con.name} (${con.cost})`} />
-                                    </HoverInfo>
+                                    <ListItemText primary={`${con.name} (${con.cost})`} />
                                 </MenuItem>
                             ))}
                         </Select>

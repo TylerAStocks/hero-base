@@ -49,6 +49,10 @@ export const HBDataTable: React.FC<HBDataTableType> = ({tab, main, records}) => 
           return {image: 'leaping'};
         case 'Shrinking':
           return {image: 'shrinking'};
+        case 'Summoning':
+          return {image: 'summoning'};
+        case 'Teleportation':
+          return {image: 'teleportation'}
         default:
           return {}
       }

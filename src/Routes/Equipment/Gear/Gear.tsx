@@ -1,6 +1,7 @@
 import { useState } from "react"
 import TabButton from "../../../Components/DataTables/TabButton.tsx"
 import Armor from "./Armor/Armor.tsx"
+import Weapons from "./Weapons/Weapons.tsx";
 
 
 const Gear: React.FC = () => {
@@ -11,24 +12,14 @@ const Gear: React.FC = () => {
         <>
         <div>
         <TabButton name="Armor" setTab={setTab} tab={tab}/>
-{/*         <TabButton name="Ground Vehicles" setTab={setTab} tab={tab}/>
-        <TabButton name="Water Vehicles" setTab={setTab} tab={tab}/>
-        <TabButton name="Custom Vehicles" setTab={setTab} tab={tab}/> */}
+        <TabButton name="Weapons" setTab={setTab} tab={tab}/>
         </div>
         {tab === 'Armor' && (
             <Armor />
         )}
-        
-{/*         {tab === 'Ground Vehicles' && (
-            <GroundVehicles />
+        {tab === 'Weapons' && (
+            <Weapons />
         )}
-        
-        {tab === 'Water Vehicles' && (
-            <WaterVehicles />
-        )}
-        {tab === 'Custom Vehicles' && (
-            <CustomVehicles />
-        )} */}
         
         </>
     )

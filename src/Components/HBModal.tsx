@@ -5,6 +5,8 @@ import Typography from '@mui/material/Typography';
 import growthChart from './growth.png';
 import leapingChart from './leaping-chart.png';
 import shrinkingChart from './shrinking.png';
+import summoningChart from './summoning.png';
+import teleportationChart from './teleportation.png';
 import { useEffect, useState } from 'react';
 
 
@@ -49,6 +51,12 @@ const HBModal: React.FC<HBModalType> = ({open, onClose, data}) => {
             case 'shrinking':
                 setImg(shrinkingChart);
                 return;
+            case 'summoning':
+                setImg(summoningChart);
+                return;
+            case 'teleportation':
+                setImg(teleportationChart);
+                return;
             default:
                 setImg(null)
                 return;
@@ -66,6 +74,9 @@ const HBModal: React.FC<HBModalType> = ({open, onClose, data}) => {
         aria-describedby="modal-modal-description"
         >
         <Box sx={style}>
+            {data?.image && (
+                <img src={img} alt={data?.image}/>
+            )}
             {data?.children?.map((entry: any) => {
                 return (
                     <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', margin: '16px'}}>
@@ -88,9 +99,6 @@ const HBModal: React.FC<HBModalType> = ({open, onClose, data}) => {
             })}
 
 
-            {data?.image && (
-                <img src={img} alt={data?.image}/>
-            )}
         </Box>
         </Modal>
     )
