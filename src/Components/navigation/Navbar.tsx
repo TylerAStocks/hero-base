@@ -14,6 +14,7 @@ const Navbar: React.FC = () => {
         height: '60px',
         backgroundColor: '#1e1e1e',
         display: 'flex',
+        //flexWrap: 'wrap',
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-around',
@@ -26,7 +27,7 @@ const Navbar: React.FC = () => {
         <div >
           <div >
             
-            <ul style={{display: 'flex', gap: '32px'}}>
+            <ul style={{display: 'flex', flexWrap: 'wrap', gap: '32px'}}>
               <NavItem path="/" name="Home"/>
               <NavItem path="/powers" name="Powers"/>
               <NavItem path="/equipment" name="Equipment"/>

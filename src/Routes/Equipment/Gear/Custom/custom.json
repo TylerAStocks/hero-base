@@ -1,0 +1,65 @@
+{
+    "main": "Custom gear falls somewhere between the mundane armor, weapons, and equipment used by ordinary characters and the technological marvels and arcane artifacts represented by Powers with the Item Con. You can customize your mundane gear by adding unique elements, including Pros, Cons, and the features below. You have to spend Hero Points to customize gear. If you have the Two-Fisted power and you fight with paired weapons, you can customize two identical weapons for the price of one (you don’t have to pay for each weapon separately). As with everything else, all gear customization is subject to the GM’s review and approval. CUSTOM FEATURES The features below can be applied to different types of gear to make them your own. While some of these features might be readily available on present-day Earth, others suggest advanced technology, magical enhancement, or the kind of craftsmanship that doesn’t come cheap (looking at you Bonded, Concealed, Hardened, Masterpiece, Upgraded, Very Accurate, and Very Powerful). The GM is free to make features like these and any others they wish unavailable to Heroes unless they have Perks like Patron, Resources, or Wealth, or to prohibit certain features completely, so check with your GM before selecting any of the features below. Having said that, if the GM approves, you should also feel free to get creative and make up your own features using the examples below as a guide.",
+    "records": [
+        {
+            "name": "Accurate/Very Accurate",
+            "cost": "1 to 2 Hero Points",
+            "description": "A personal weapon with this feature is more accurate than usual. This grants you a +1d bonus on your attack rolls when targeting an enemy using an active defense against your attack. If you spend 2 Hero Points on this feature, the weapon is Very Accurate, granting you a +2d bonus instead."
+        },
+        {
+            "name": "Bonded",
+            "cost": "1 Hero Point",
+            "description": "As a result of something like genetic coding or a mystical evaluation of destiny, lineage, or worthiness, the item will only work for you (or perhaps for you and a select few)."
+        },
+        {
+            "name": "Collapsible",
+            "cost": "1 Hero Point",
+            "description": "The item can be collapsed into a small and easily portable form."
+        },
+        {
+            "name": "Concealed",
+            "cost": "1 Hero Point",
+            "description": "The item is concealed in another item or disguised to look like something else."
+        },
+        {
+            "name": "Deflecting",
+            "cost": "2 Hero Points",
+            "description": "This feature is applied to armor that uses hard, angled plates or the equivalent to deflect attacks. Characters wearing this armor can add half its Armor Bonus to their active defense rolls (subject to the game’s Gear Limit). Characters armed with melee weapons cannot apply both this bonus and a Weapon Bonus to their active defense rolls, but they can select which of these bonuses to apply. This feature does not work against attacks that have the Armor Piercing or Penetrating Pros."
+        },
+        {
+            "name": "Fitted",
+            "cost": "2 Hero Points",
+            "description": "This feature is added to Bulky or Rigid armor to eliminate the penalty to challenge rolls involving acrobatics, stealth, and speed. The penalty still applies when swimming in the armor."
+        },
+        {
+            "name": "Hardened",
+            "cost": "2 Hero Points",
+            "description": "This feature is applied to armor to make it especially resilient. It counteracts the effects of the Armor Piercing Pro. The Penetrating Pro, however, works normally against this item."
+        },
+        {
+            "name": "Masterpiece",
+            "cost": "2 Hero Points",
+            "description": "An item with this feature is exceptionally well-crafted and constructed of high quality or materials or parts. This lets you reroll one challenge roll per scene when using the item."
+        },
+        {
+            "name": "Powerful/Very Powerful",
+            "cost": "1 to 2 Hero Points",
+            "description": "A personal weapon with this feature is more powerful than usual. This grants you a +1d bonus on your attack rolls when targeting an enemy using a passive defense against your attack. If you spend 2 Hero Points on this feature, the weapon is Very Powerful, granting you a +2d bonus instead."
+        },
+        {
+            "name": "Reinforced",
+            "cost": "2 Hero Points",
+            "description": "This feature usually indicates that the armor is constructed of especially damage-resistant materials. It increases the Armor Bonus provided by the item by 1d."
+        },
+        {
+            "name": "Silenced",
+            "cost": "1 Hero Point",
+            "description": "This feature is a version of the Subtle Pro that applies only to ranged weapons. It means the weapon makes much less noise and lacks the usual visual signature like muzzle flare. This feature is more effective than ordinary silencers you can obtain as gear (assuming you can find one for sale)."
+        },
+        {
+            "name": "Upgraded",
+            "cost": "2 Hero Points",
+            "description": "This feature increases the Armor Bonus provided by armor, the Shield Bonus provided by a shield, the Weapon Bonus provided by a weapon, or the core bonus provided by any other item by 1d. This bonus stacks with that provided by other features."
+        }
+    ]
+}
