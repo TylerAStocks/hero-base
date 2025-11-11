@@ -7,25 +7,23 @@ const Navbar: React.FC = () => {
   return (
     <>
       <div style={{
-        position: 'fixed',
+        position: 'sticky',
         top: 0,
         left: 0,
         width: '100%',
-        height: '60px',
         backgroundColor: '#1e1e1e',
         display: 'flex',
-        //flexWrap: 'wrap',
+        flexWrap: 'wrap',
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'space-around',
+        justifyContent: 'center',
         color: '#fff',
         zIndex: 1000,
         boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+        marginBottom: '20px'
       }}
       >
         
-        <div >
-          <div >
             
             <ul style={{display: 'flex', flexWrap: 'wrap', gap: '32px'}}>
               <NavItem path="/" name="Home"/>
@@ -35,8 +33,6 @@ const Navbar: React.FC = () => {
               <NavItem path="/combat" name="Combat"/>
               <NavItem path="/pointCalculator" name="Point Calculator"/>
             </ul>
-          </div>
-        </div>
       </div>
 
     </>
