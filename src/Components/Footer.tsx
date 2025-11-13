@@ -1,6 +1,27 @@
+import { useContext } from "react";
+import { UserContext } from "../UserContext.tsx";
+import axios from "axios";
 
 
 const Footer: React.FC = () => {
+
+    const { user, setUser } = useContext(UserContext);
+
+
+    const handleLogOut = () => {
+        axios.post('/users/logoutAll',{}, {
+            headers: {
+            'Authorization': `Bearer ${localStorage.getItem('userToken')?.replace(/['"]+/g, '')}`
+            }
+        })
+        .then(function (response) {
+            setUser(response.data)
+        })
+        .catch(function (error) {
+            console.error(error)
+        })
+    }
+
 
     return (
         <div style={{
@@ -22,6 +43,7 @@ const Footer: React.FC = () => {
         <a rel="noreferrer" target="_blank" href={"https://drive.google.com/file/d/1LVQd2qZbaC7TF96OMATlBatraJNDFFbk/view?usp=sharing"} >
                 <p>Rulebook</p>
         </a>
+        <button onClick={handleLogOut}>Log Out</button>
       </div>
     )
 }

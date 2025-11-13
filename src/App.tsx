@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css'; // Assuming you have an App.css file for styling
 
 import { MantineProvider } from '@mantine/core';
@@ -14,16 +14,48 @@ import Powers from './Routes/Powers/Powers.tsx';
 import Equipment from './Routes/Equipment/Equipment.tsx';
 import PointCalculator from './Routes/PointCalculator/PointCalculator.tsx';
 import PerksAndFlaws from './Routes/PerksAndFlaws/PerksAndFlaws.tsx';
+import Login from './Routes/Login/Login.tsx';
+import { UserContext } from './UserContext.tsx';
+import axios from 'axios';
 
 // Define the functional component using React.FC type for type safety
 const App: React.FC = () => {
+
+  const [user, setUser] = useState(null);
+
+
+
+  useEffect(() => {
+    if (!user) {
+      axios.get('/users/me', {
+        headers: {
+          'Authorization': `Bearer ${localStorage.getItem('userToken')?.replace(/['"]+/g, '')}`
+        }
+      })
+      .then(function (response) {
+          setUser({ token: localStorage.getItem('userToken')?.replace(/['"]+/g, ''), user: response.data })
+      })
+      .catch(function (error) {
+          console.error(error)
+      })
+    }
+  });
+
+
+  console.log('USER: ', user)
+
   return (
     <BrowserRouter>
-        <div className="App">
-      <header className="App-header">
-        <MantineProvider defaultColorScheme="auto">
-          <h1 style={{marginTop: '50px'}}>Welcome to The Herobase</h1>
-          <Navbar />
+    <UserContext.Provider value={{ user, setUser }}>
+
+      <div className="App">
+        <header className="App-header">
+          <MantineProvider defaultColorScheme="auto">
+
+          {user ? (
+            <>
+            <h1 style={{marginTop: '50px'}}>Herobase</h1>
+            <Navbar />
 
 
 
@@ -35,11 +67,20 @@ const App: React.FC = () => {
             <Route path="/powers" element={<Powers />} />
             <Route path="/pointCalculator" element={<PointCalculator />} />
             <Route path="/perksAndFlaws" element={<PerksAndFlaws />} />
-          </Routes>
-          <Footer />
-        </MantineProvider>
-      </header>
-    </div>
+            </Routes>
+            <Footer />
+            </>
+          ) : (
+            <Login />
+          )}
+
+
+          </MantineProvider>
+        </header>
+      </div>
+
+
+    </UserContext.Provider>
     </BrowserRouter>
 
   );
