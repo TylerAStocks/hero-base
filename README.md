@@ -1,3 +1,17 @@
+# Welcome to the Herobase
+
+This is a publicly accessible website you can visit [right here.]([https://example.com](https://herobase.netlify.app/))
+
+This site hosts the ruleset for the Prowlers and Paragons tabletop system in an easily digestible, searchable format. The author is not affiliated with LakeSide Games or Mobius Worlds Publishing. Prowlers and Paragons and Prowlers and Paragons Ultimate Edition are trademarks of LakeSide Games, Inc.
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
