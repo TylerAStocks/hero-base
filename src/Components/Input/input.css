@@ -1,0 +1,27 @@
+.number-input {
+    width: 4rem;
+    border-radius: 8px;
+}
+
+.text-input {
+    width: 8rem;
+    border-radius: 8px;
+}
+
+
+.input-label {
+    position: absolute;
+    color: black;
+    top: 0;
+    font-size: 0.8rem;
+}
+
+
+.input-container {
+    position: relative;
+    padding: 1.1rem 0 0 0;
+    background: rgb(110, 110, 220);
+    border-radius: 8px;
+    border: 2px solid yellow;
+    margin: 0 .5rem 0 .5rem;
+}

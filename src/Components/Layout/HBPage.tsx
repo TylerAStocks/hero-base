@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import './hb-page.css';
 
 
 interface HBPageProps {
@@ -9,7 +10,7 @@ interface HBPageProps {
 const HBPage: React.FC<HBPageProps> = ({children}) => {
 
     return (
-        <div style={{margin: '10px', marginBottom: '40px', padding: '20px', paddingBottom: '30px'}}>
+        <div className="hb-page">
             {children}
         </div>
     )
