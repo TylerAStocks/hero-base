@@ -5,6 +5,7 @@ import HBModal from '../HBModal.tsx';
 import Autocomplete from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
 import { Formik } from 'formik';
+import Button from '../Button/Button.tsx';
 
 interface HBDataTableType {
     main: string;
@@ -137,7 +138,7 @@ export const HBDataTable: React.FC<HBDataTableType> = ({tab, main, records}) => 
                       sx={{ width: 300 }}
                       renderInput={(params) => <TextField name="name" onChange={handleChange} {...params} label={tab} style={{borderRadius: '8px', background: 'white'}} />}
                     />
-                    <button>Search</button>
+                    <Button>Search</Button>
                   </form>
                   
                 )}}

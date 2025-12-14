@@ -3,14 +3,16 @@ import Typography from "@mui/material/Typography";
 import { Formik } from 'formik';
 import { useEffect, useState } from "react";
 import powers from '../Powers/powers.json'
-import TextField from "@mui/material/TextField";
-import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
 import ListItemText from "@mui/material/ListItemText";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import Checkbox from "@mui/material/Checkbox";
 import prosAndCons from '../ProsAndCons/prosAndCons.json'
-import HBNumberInput from "../../Components/HBNumberInput.tsx";
+import Button from "../../Components/Button/Button.tsx";
+
+import './point-calculator.css';
+import Input from "../../Components/Input/Input.tsx";
+import Select from "@mui/material/Select";
 
 
 const selectStyle = {
@@ -92,11 +94,12 @@ const PointCalculator: React.FC = () => {
                 }
 
                 const handleChangeProCon = (value) => {
+                    console.log('value: ', value)
                     const arr = value.target.value
                     let total = 0;
                     let fields = ['', ''];
                     let finalCost = parseInt(powers.records.find((power) => power.name === values.power)?.cost || '0')
-                    const proCons = arr.map((item) => {
+                    const proCons = arr.length ? arr.map((item) => {
                         let proCon;
                         if (value.target.name.includes('pros')) {
                             proCon = prosList.find((pro) => pro.name === item)
@@ -113,7 +116,7 @@ const PointCalculator: React.FC = () => {
                         }
                     
                         return item
-                    })
+                    }) : arr
 
                     if (Object.keys(proCons).length) {
                         setValues({...values, cost: finalCost.toString(), [fields[0]]: total, [fields[1]]: value.target.value})
@@ -123,55 +126,61 @@ const PointCalculator: React.FC = () => {
                     
                 }
 
-                return (
-                <form onSubmit={handleSubmit}>
 
-                <Autocomplete
+
+
+
+
+                return (
+                <form className="form" onSubmit={handleSubmit}>
+
+                <div>
+
+                    <div className="input-group">
+
+                    <Autocomplete
                     disablePortal
                     blurOnSelect
                     name="power"
-                    style={{
-                        background: '#d2c7d6',
-                        padding: '6px',
-                        borderRadius: '8px'
-                    }}
+
                     freeSolo={true}
                     onChange={handleChangePower}
                     getOptionLabel={(option) => `${option.name} (${option.cost})`}
                     options={powers.records}
                     sx={{ width: 300 }}
-                    renderInput={(params) => <TextField name="name" {...params} label="Select Power" style={{borderRadius: '8px', background: 'white'}} />} />
-                    <div style={{
-                        display: 'flex',
-                        flexDirection: 'column'
-                    }}>
+                    renderInput={(params) => <Input type={"text"} value={undefined} name="name" {...params} label="Select Power"  />} />
 
-                    <HBNumberInput name="ranks" label="Ranks" disabled={!isPowerRank} value={values.ranks} onChange={handleChange}/>
+                    <Input name="ranks" label="Ranks" disabled={!isPowerRank} value={values.ranks} onChange={handleChange} type="number"/>
 
 
-                    <HBNumberInput name="cost" label="Cost" value={values.cost} onChange={handleChange}/>
+                    <Input name="cost" label="Cost" value={values.cost} onChange={handleChange} type={"number"}/>
+
+                    </div>
+             
+                    
+
 
                     <div className="num-input">
                     <label>Pros</label>
-                            <Select
-                                labelId="demo-multiple-checkbox-label"
-                                id="demo-multiple-checkbox"
-                                name="prosList"
-                                multiple
-                                value={values.prosList}
-                                onChange={handleChangeProCon}
-                                input={<OutlinedInput label="Tag" />}
-                                renderValue={(selected) => selected.join(', ')}
-                                style={selectStyle}
-                                >
-                                {prosList.map((pro) => (
-                                    <MenuItem key={pro.name} value={pro.name}>
+                        <Select
+                            labelId="demo-multiple-checkbox-label"
+                            id="demo-multiple-checkbox"
+                            name="prosList"
+                            multiple
+                            value={values.prosList}
+                            onChange={handleChangeProCon}
+                            input={<OutlinedInput label="Tag" />}
+                            renderValue={(selected) => selected.join(', ')}
+                            style={selectStyle}
+                            >
+                            {prosList.map((pro) => (
+                                <MenuItem key={pro.name} value={pro.name}>
                                     <Checkbox checked={values.prosList?.includes(pro.name)} />
                                     <ListItemText primary={`${pro.name} (${pro.cost})`} />
-                                    </MenuItem>
-                                ))}
-                                </Select>
-                        <HBNumberInput name="pros" label="Pros cost" value={values.pros} onChange={handleChange}/>
+                                </MenuItem>
+                            ))}
+                        </Select>
+                        <Input name="pros" label="Pros cost" value={values.pros} onChange={handleChange} type={"number"}/>
                     </div>
 
                     <div className="num-input">
@@ -194,11 +203,11 @@ const PointCalculator: React.FC = () => {
                                 </MenuItem>
                             ))}
                         </Select>
-                    <HBNumberInput name="cons" label="Cons cost" value={values.cons} onChange={handleChange}/>
+                    <Input name="cons" label="Cons cost" value={values.cons} onChange={handleChange} type={"number"}/>
                     </div>
                     </div>
 
-                    <button type="submit">Submit</button>
+                    <Button type="submit">Submit</Button>
                 </form>
                 )}}
                 </Formik>

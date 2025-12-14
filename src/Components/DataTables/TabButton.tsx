@@ -1,3 +1,4 @@
+import Button from "../Button/Button.tsx";
 
 interface TabButtonType {
     name: string;
@@ -12,7 +13,7 @@ const TabButton: React.FC<TabButtonType> = ({ name, setTab, tab}) => {
     }
 
     return (
-        <button onClick={onTabClick} style={{background: tab === name ? 'white' : 'gray'}}> {name} </button>
+        <Button onClick={onTabClick} style={{background: tab === name ? 'white' : 'gray'}}> {name} </Button>
     )
 }
 
